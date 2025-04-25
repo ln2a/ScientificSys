@@ -1,0 +1,165 @@
+{
+    "nodes": [
+        {
+            "id": "Qu, Huamin",
+            "group": 2,
+            "paperCount": 65,
+            "inst": "Hong Kong Univ Sci & Technol",
+            "cluster": 6,
+            "coop": 331
+        },
+        {
+            "id": "Deussen, Oliver",
+            "group": 2,
+            "paperCount": 40,
+            "inst": "Univ Konstanz",
+            "cluster": 5,
+            "coop": 156
+        },
+        {
+            "id": "Pfister, Hanspeter",
+            "group": 2,
+            "paperCount": 39,
+            "inst": "Harvard Univ",
+            "cluster": 3,
+            "coop": 217
+        },
+        {
+            "id": "Shen, Han-Wei",
+            "group": 2,
+            "paperCount": 36,
+            "inst": "Ohio State Univ",
+            "cluster": 2,
+            "coop": 143
+        },
+        {
+            "id": "Iwai, Daisuke",
+            "group": 2,
+            "paperCount": 22,
+            "inst": "Osaka Univ",
+            "cluster": 4,
+            "coop": 60
+        },
+        {
+            "id": "Isenberg, Tobias",
+            "group": 2,
+            "paperCount": 22,
+            "inst": "INRIA",
+            "cluster": 1,
+            "coop": 86
+        },
+        {
+            "id": "Zhejiang Univ",
+            "group": 3,
+            "paperCount": 556,
+            "cluster": 6,
+            "coop": 300
+        },
+        {
+            "id": "Tsinghua Univ",
+            "group": 3,
+            "paperCount": 365,
+            "cluster": 3,
+            "coop": 203
+        },
+        {
+            "id": "Chinese Acad Sci",
+            "group": 3,
+            "paperCount": 233,
+            "cluster": 5,
+            "coop": 283
+        },
+        {
+            "id": "Univ Utah",
+            "group": 3,
+            "paperCount": 215,
+            "cluster": 2,
+            "coop": 152
+        },
+        {
+            "id": "TU Wien",
+            "group": 3,
+            "paperCount": 105,
+            "cluster": 1,
+            "coop": 108
+        },
+        {
+            "id": "Univ Rennes",
+            "group": 3,
+            "paperCount": 93,
+            "cluster": 4,
+            "coop": 25
+        },
+        {
+            "id": "EvoVis: A Visual Analytics Method to Understand the Labeling Iterations in Data Programming",
+            "group": 1,
+            "doi": "10.1109/TVCG.2024.3370654",
+            "ab": "Obtaining high-quality labeled training data poses a significant bottleneck in the domain of machine learning. Data programming has emerged as a new paradigm to address this issue by converting human knowledge into labeling functions (LFs) to quickly produce low-cost probabilistic labels. To ensure the quality of labeled data, data programmers commonly iterate LFs for many rounds until satisfactory performance is achieved. However, the challenge in understanding the labeling iterations stems from interpreting the intricate relationships between data programming elements, exacerbated by their many-to-many and directed characteristics, inconsistent formats, and the large scale of data typically involved in labeling tasks. These complexities may impede the evaluation of label quality, identification of areas for improvement, and the effective optimization of LFs for acquiring high-quality labeled data. In this article, we introduce EvoVis, a visual analytics method for multi-class text labeling tasks. It seamlessly integrates relationship analysis and temporal overview to display contextual and historical information on a single screen, aiding in explaining the labeling iterations in data programming. We assessed its utility and effectiveness through case studies and user studies. The results indicate that EvoVis can effectively assist data programmers in understanding labeling iterations and improving the quality of labeled data, as evidenced by an increase of 0.16 in the average F1 score when compared to the default analysis tool.",
+            "keywords": "Visual analytics,model interpretation,data programming,data labeling,Visual analytics,model interpretation,data programming,data labeling",
+            "year": "2025",
+            "auInst": "Li, Sisi-Tianjin Univ;Wei, Tianxiang-Tianjin Univ;Jia, Shichao-Tianjin Univ;Zhang, Jiawan-Tianjin Univ;Liu, Guanzhong-Netflix Inc",
+            "cluster": 3
+        },
+        {
+            "id": "AudioGest: Gesture-Based Interaction for Virtual Reality Using Audio Devices",
+            "group": 1,
+            "doi": "10.1109/TVCG.2024.3397868",
+            "ab": "Current virtual reality (VR) system takes gesture interaction based on camera, handle and touch screen as one of the mainstream interaction methods, which can provide accurate gesture input for it. However, limited by application forms and the volume of devices, these methods cannot extend the interaction area to such surfaces as walls and tables. To address the above challenge, we propose AudioGest, a portable, plug-and-play system that detects the audio signal generated by finger tapping and sliding on the surface through a set of microphone devices without extensive calibration. First, an audio synthesis-recognition pipeline based on micro-contact dynamics simulation is constructed to generate modal audio synthesis from different materials and physical properties. Then the accuracy and effectiveness of the synthetic audio are verified by mixing the synthetic audio with real audio proportionally as the training sets. Finally, a series of desktop office applications are developed to demonstrate the application potential of AudioGest's scalability and versatility in VR scenarios.",
+            "keywords": "Surface roughness,Rough surfaces,Pipelines,Data acquisition,Microphones,Dynamics,Training,Audio synthesis,gesture interaction,human computer interaction,virtual reality",
+            "year": "2025",
+            "auInst": "Liu, Tong-Beijing Inst Technol;Xiao, Yi-Beijing Inst Technol;Hu, Mingwei-Beijing Inst Technol;Sha, Hao-Beijing Inst Technol;Ma, Shining-Beijing Inst Technol;Liu, Yue-Beijing Inst Technol;Song, Weitao-Beijing Inst Technol;Gao, Boyu-Jinan Univ;Guo, Shihui-Xiamen Univ",
+            "cluster": 5
+        },
+        {
+            "id": "Causal Priors and Their Influence on Judgements of Causality in Visualized Data",
+            "group": 1,
+            "doi": "10.1109/TVCG.2024.3456381",
+            "ab": "\"Correlation does not imply causation\" is a famous mantra in statistical and visual analysis. However, consumers of visualizations often draw causal conclusions when only correlations between variables are shown. In this paper, we investigate factors that contribute to causal relationships users perceive in visualizations. We collected a corpus of concept pairs from variables in widely used datasets and created visualizations that depict varying correlative associations using three typical statistical chart types. We conducted two MTurk studies on (1) preconceived notions on causal relations without charts, and (2) perceived causal relations with charts, for each concept pair. Our results indicate that people make assumptions about causal relationships between pairs of concepts even without seeing any visualized data. Moreover, our results suggest that these assumptions constitute causal priors that, in combination with visualized association, impact how data visualizations are interpreted. The results also suggest that causal priors may lead to over- or under-estimation in perceived causal relations in different circumstances, and that those priors can also impact users' confidence in their causal assessments. In addition, our results align with prior work, indicating that chart type may also affect causal inference. Using data from the studies, we develop a model to capture the interaction between causal priors and visualized associations as they combine to impact a user's perceived causal relations. In addition to reporting the study results and analyses, we provide an open dataset of causal priors for 56 specific concept pairs that can serve as a potential benchmark for future studies. We also suggest remaining challenges and heuristic-based guidelines to help designers improve visualization design choices to better support visual causal inference.",
+            "keywords": "Causal inference,Perception and cognition,Causal prior,Association,Causality,Causal inference,Perception and cognition,Visualization,Visualization,Association,Causality",
+            "year": "2025",
+            "auInst": "Wang, Arran Zeyu-Univ North Carolina Chapel Hill UNC;Wang, Wenyuan-Univ North Carolina Chapel Hill UNC;Gotz, David-Univ North Carolina Chapel Hill UNC;Borland, David-UNC;Peck, Tabitha C.-Davidson Coll",
+            "cluster": 6
+        },
+        {
+            "id": "A Testbed for Studying Cybersickness and its Mitigation in Immersive Virtual Reality",
+            "group": 1,
+            "doi": "10.1109/TVCG.2024.3448203",
+            "ab": "Cybersickness (CS) represents one of the oldest problems affecting Virtual Reality (VR) technology. In an attempt to resolve or at least limit this form of discomfort, an increasing number of mitigation techniques have been proposed by academic and industrial researchers. However, the validation of such techniques is often carried out without grounding on a common methodology, making the comparison between the various works in the state of the art difficult. To address this issue, the present article proposes a novel testbed for studying CS in immersive VR and, in particular, methods to mitigate it. The testbed consists of four virtual scenarios, which have been designed to elicit CS in a targeted and predictable manner. The scenarios, grounded on available literature, support the extraction of objective metrics about user's performance. The testbed additionally integrates an experimental protocol that employs standard questionnaires as well as measurements typically adopted in state-of-the-art practice to assess levels of CS and other subjective aspects regarding User Experience. The article shows a possible use case of the testbed, concerning the evaluation of a CS mitigation technique that is compared with the absence of mitigation as baseline condition.",
+            "keywords": "Prevention and mitigation,Visualization,Measurement,Dynamics,Task   analysis,Standards,Taxonomy,Cybersickness,testbed,virtual reality,evaluation,virtual environments,simulator sickness,taxonomy",
+            "year": "2024",
+            "auInst": "Calandra, Davide-Politecn Torino;Lamberti, Fabrizio-Politecn Torino",
+            "cluster": 4
+        },
+        {
+            "id": "Design Concerns for Integrated Scripting and Interactive Visualization in Notebook Environments",
+            "group": 1,
+            "doi": "10.1109/TVCG.2024.3354561",
+            "ab": "Interactive visualization can support fluid exploration but is often limited to predetermined tasks. Scripting can support a vast range of queries but may be more cumbersome for free-form exploration. Embedding interactive visualization in scripting environments, such as computational notebooks, provides an opportunity to leverage the strengths of both direct manipulation and scripting. We investigate interactive visualization design methodology, choices, and strategies under this paradigm through a design study of calling context trees used in performance analysis, a field which exemplifies typical exploratory data analysis workflows with Big Data and hard to define problems. We first produce a formal task analysis assigning tasks to graphical or scripting contexts based on their specificity, frequency, and suitability. We then design a notebook-embedded interactive visualization and validate it with intended users. In a follow-up study, we present participants with multiple graphical and scripting interaction modes to elicit feedback about notebook-embedded visualization design, finding consensus in support of the interaction model. We report and reflect on observations regarding the process and design implications for combining visualization and scripting in notebooks.",
+            "keywords": "Computational notebooks,exploratory data analysis,hybrid   visualization-scripting,interactive data analysis,visualization   design,Computational notebooks,exploratory data analysis,hybrid   visualization-scripting,interactive data analysis,visualization design",
+            "year": "2024",
+            "auInst": "Scully-Allison, Connor-Univ Utah;Isaacs, Katherine E.-Univ Utah;Lumsden, Ian-Univ Tennessee;Taufer, Michela-Univ Tennessee;Williams, Katy-Davidson Coll;Bartels, Jesse-Rincon Res;Brink, Stephanie-Larence Livermore Natl Lab;Pearce, Olga-Larence Livermore Natl Lab;Bhatele, Abhinav-Univ Maryland;Bhatele, Abhinav-Univ Maryland",
+            "cluster": 2
+        },
+        {
+            "id": "Binned k-d Tree Construction for Sparse Volume Data on Multi-Core and GPU Systems",
+            "group": 1,
+            "doi": "10.1109/TVCG.2019.2938957",
+            "ab": "While k-d trees are known to be effective for spatial indexing of sparse 3-d volume data, full reconstruction, e.g. due to changes to the alpha transfer function during rendering, is usually a costly operation with this hierarchical data structure. In a recent publication we showed how to port a clever state of the art k-d tree construction algorithm to a multi-core CPU architecture and by means of thorough optimization we were able to obtain interactive reconstruction rates for moderately sized to large data sets. The construction scheme is based on maintaining partial summed-volume tables that fit in the L1 cache of the multi-core CPU and that allow for fast occupancy queries. In this work we propose a GPU implementation of the parallel k-d tree construction algorithm and compare it with the original multi-core CPU implementation. We conduct a thorough comparative study that outlines performance and scalability of our implementation.",
+            "keywords": "Scientific Visualization,Sparse Data,Direct Volume Rendering,k-d   Tree,Parallel and GPGPU Computing",
+            "year": "2021",
+            "auInst": "Zellmann, Stefan-Univ Cologne;Lang, Ulrich-Univ Cologne;Schulze, Juergen P.-Univ Calif San Diego",
+            "cluster": 1
+        },
+        {
+            "id": "Instant Visual Odometry Initialization for Mobile AR",
+            "group": 1,
+            "doi": "10.1109/TVCG.2021.3106505",
+            "ab": "Mobile AR applications benefit from fast initialization to display world-locked effects instantly. However, standard visual odometry or SLAM algorithms require motion parallax to initialize (see Figure 1) and, therefore, suffer from delayed initialization. In this paper, we present a 6-DoF monocular visual odometry that initializes instantly and without motion parallax. Our main contribution is a pose estimator that decouples estimating the 5-DoF relative rotation and translation direction from the 1-DoF translation magnitude. While scale is not observable in a monocular vision-only setting, it is still paramount to estimate a consistent scale over the whole trajectory (even if not physically accurate) to avoid AR effects moving erroneously along depth. In our approach, we leverage the fact that depth errors are not perceivable to the user during rotation-only motion. However, as the user starts translating the device, depth becomes perceivable and so does the capability to estimate consistent scale. Our proposed algorithm naturally transitions between these two modes. Our second contribution is a novel residual in the relative pose problem to further improve the results. The residual combines the Jacobians of the functional and the functional itself and is minimized using a Levenberg-Marquardt optimizer on the 5-DoF manifold. We perform extensive validations of our contributions with both a publicly available dataset and synthetic data. We show that the proposed pose estimator outperforms the classical approaches for 6-DoF pose estimation used in the literature in low-parallax configurations. Likewise, we show our relative pose estimator outperforms state-of-the-art approaches in an odometry pipeline configuration where we can leverage initial guesses. We release a dataset for the relative pose problem using real data to facilitate the comparison with future solutions for the relative pose problem. Our solution is either used as a full odometry or as a pre-SLAM component of any supported SLAM system (ARKit, ARCore) in world-locked AR effects on platforms such as Instagram and Facebook.",
+            "keywords": "Cameras,Simultaneous localization and mapping,Transmission line matrix   methods,Sensors,Feature extraction,Visual odometry,Tracking,Monocular initialization,relative pose estimator,Visual Odometry,AR   instant placement",
+            "year": "2021",
+            "auInst": "Concha, Alejo-Facebook Zurich;Burri, Michael-Facebook Zurich;Briales, Jesus-Facebook Zurich;Forster, Christian-Facebook Zurich;Oth, Luc-Facebook Zurich",
+            "cluster": 0
+        }
+    ],
+    "links": []
+}

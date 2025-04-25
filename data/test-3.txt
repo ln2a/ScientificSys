@@ -1,0 +1,177 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Li, SS
+   Liu, GZ
+   Wei, TX
+   Jia, SC
+   Zhang, JW
+AF Li, Sisi
+   Liu, Guanzhong
+   Wei, Tianxiang
+   Jia, Shichao
+   Zhang, Jiawan
+TI EvoVis: A Visual Analytics Method to Understand the Labeling Iterations
+   in Data Programming
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+DE Visual analytics; model interpretation; data programming; data labeling;
+   Visual analytics; model interpretation; data programming; data labeling
+AB Obtaining high-quality labeled training data poses a significant bottleneck in the domain of machine learning. Data programming has emerged as a new paradigm to address this issue by converting human knowledge into labeling functions (LFs) to quickly produce low-cost probabilistic labels. To ensure the quality of labeled data, data programmers commonly iterate LFs for many rounds until satisfactory performance is achieved. However, the challenge in understanding the labeling iterations stems from interpreting the intricate relationships between data programming elements, exacerbated by their many-to-many and directed characteristics, inconsistent formats, and the large scale of data typically involved in labeling tasks. These complexities may impede the evaluation of label quality, identification of areas for improvement, and the effective optimization of LFs for acquiring high-quality labeled data. In this article, we introduce EvoVis, a visual analytics method for multi-class text labeling tasks. It seamlessly integrates relationship analysis and temporal overview to display contextual and historical information on a single screen, aiding in explaining the labeling iterations in data programming. We assessed its utility and effectiveness through case studies and user studies. The results indicate that EvoVis can effectively assist data programmers in understanding labeling iterations and improving the quality of labeled data, as evidenced by an increase of 0.16 in the average F1 score when compared to the default analysis tool.
+C1 [Li, Sisi; Wei, Tianxiang; Jia, Shichao; Zhang, Jiawan] Tianjin Univ, Coll Intelligence & Comp, Tianjin 300072, Peoples R China.
+   [Liu, Guanzhong] Netflix Inc, Los Gatos, CA 95032 USA.
+RP Zhang, JW (corresponding author), Tianjin Univ, Coll Intelligence & Comp, Tianjin 300072, Peoples R China.
+EM sisilee144144@gmail.com; guanzhongl@netflix.com;
+   tianxiangwei@tju.edu.cn; jsc_se@tju.edu.cn; jwzhang@tju.edu.cn
+CR He JB, 2024, IEEE T VIS COMPUT GR, V30, P87, DOI 10.1109/TVCG.2023.3326586
+   Bach SH, 2017, PR MACH LEARN RES, V70
+   Buolamwini Joy, 2018, C FAIRN ACC TRANSP, P77, DOI DOI 10.2147/OTT.S126905
+   Chang CM, 2021, CHI '21: PROCEEDINGS OF THE 2021 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS, DOI 10.1145/3411764.3445165
+   Chen HH, 2021, IEEE T RELIAB, V70, P831, DOI 10.1109/TR.2021.3070863
+   Choi DJ, 2021, WEB CONFERENCE 2021: COMPANION OF THE WORLD WIDE WEB CONFERENCE (WWW 2021), P673, DOI 10.1145/3442442.3458602
+   Choi M, 2019, CHI 2019: PROCEEDINGS OF THE 2019 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS, DOI 10.1145/3290605.3300460
+   Devlin J, 2019, 2019 CONFERENCE OF THE NORTH AMERICAN CHAPTER OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS: HUMAN LANGUAGE TECHNOLOGIES (NAACL HLT 2019), VOL. 1, P4171
+   Domingos P, 2012, COMMUN ACM, V55, P78, DOI 10.1145/2347736.2347755
+   Evensen S, 2020, FINDINGS OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS, EMNLP 2020, P1996
+   Grimmeisen B, 2023, VISUAL COMPUT, V39, P5097, DOI 10.1007/s00371-022-02648-2
+   Hancock B, 2018, PROCEEDINGS OF THE 56TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL), VOL 1, P1884
+   Haverbeke M., CodeMirror: A versatile text editor implemented in JavaScript for the browser
+   Hinterreiter A, 2022, IEEE T VIS COMPUT GR, V28, P1222, DOI 10.1109/TVCG.2020.3012063
+   Hohman F, 2020, PROCEEDINGS OF THE 2020 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS (CHI'20), DOI 10.1145/3313831.3376177
+   Hoque Md Naimul, 2023, IEEE Trans Vis Comput Graph, V29, P74, DOI 10.1109/TVCG.2022.3209466
+   Huang C, 2016, PROC CVPR IEEE, P5375, DOI 10.1109/CVPR.2016.580
+   Huang Jinbin, 2022, IEEE Trans Vis Comput Graph, VPP, DOI 10.1109/TVCG.2022.3209384
+   Jia SC, 2022, IEEE T VIS COMPUT GR, V28, P791, DOI 10.1109/TVCG.2021.3114793
+   JOLLIFFE I., 2011, International Encyclopedia of Statistical Science, DOI [DOI 10.1007/978-3-642-04898-2455, 10.1007/978-3-642-04898-2_455]
+   Kelleher JD, 2015, FUNDAMENTALS OF MACHINE LEARNING FOR PREDICTIVE DATA ANALYTICS: ALGORITHMS, WORKED EXAMPLES, AND CASE STUDIES, P1
+   Liu SX, 2019, IEEE T VIS COMPUT GR, V25, P235, DOI 10.1109/TVCG.2018.2864843
+   Nivre J, 2016, LREC 2016 - TENTH INTERNATIONAL CONFERENCE ON LANGUAGE RESOURCES AND EVALUATION, P1659
+   Pühringer M, 2020, 2020 IEEE VISUALIZATION CONFERENCE - SHORT PAPERS (VIS 2020), P291, DOI 10.1109/VIS47514.2020.00065
+   Ratner A, 2019, AAAI CONF ARTIF INTE, P4763
+   Ratner A, 2017, PROC VLDB ENDOW, V11, P269, DOI 10.14778/3157794.3157797
+   Ratner A, 2016, ADV NEUR IN, V29
+   Santiago AS, 2019, PENSAM MARGEN, P1, DOI [10.1145/3338852.3339876, 10.1145/3328519.3329134]
+   Sarikaya A, 2018, IEEE T VIS COMPUT GR, V24, P402, DOI 10.1109/TVCG.2017.2744184
+   Schmidt M, 2008, J IND ECOL, V12, P173, DOI 10.1111/j.1530-9290.2008.00015.x
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+   Varma P, 2019, PR MACH LEARN RES, V97
+   Varma P, 2018, PROC VLDB ENDOW, V12, P223, DOI 10.14778/3291264.3291268
+   Wang JP, 2021, IEEE PAC VIS SYMP, P186, DOI 10.1109/PacificVis52677.2021.00032
+   Wang JP, 2018, IEEE T VIS COMPUT GR, V24, P1905, DOI 10.1109/TVCG.2018.2816223
+   Wang YS, 2019, BMC MED INFORM DECIS, V19, DOI [10.1186/s12889-019-7832-8, 10.1186/s12911-018-0723-6]
+   Wang Z, 2021, PROC INT CONF SOFTW, P397, DOI 10.1109/ICSE43902.2021.00046
+   Yang J, 2002, INFOVIS 2002: IEEE SYMPOSIUM ON INFORMATION VISUALIZATION 2002, P77, DOI 10.1109/INFVIS.2002.1173151
+   Zhang JY, 2022, Arxiv, DOI arXiv:2202.05433
+   Zhang X, 2015, ADV NEUR IN, V28
+NR 40
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA
+PD MAR
+PY 2025
+VL 31
+IS 3
+BP 1802
+EP 1817
+DI 10.1109/TVCG.2024.3370654
+ER
+
+PT J
+AU Liu, T
+   Xiao, Y
+   Hu, MW
+   Sha, H
+   Ma, SN
+   Gao, BY
+   Guo, SH
+   Liu, Y
+   Song, WT
+AF Liu, Tong
+   Xiao, Yi
+   Hu, Mingwei
+   Sha, Hao
+   Ma, Shining
+   Gao, Boyu
+   Guo, Shihui
+   Liu, Yue
+   Song, Weitao
+TI AudioGest: Gesture-Based Interaction for Virtual Reality Using Audio
+   Devices
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+DE Surface roughness; Rough surfaces; Pipelines; Data acquisition;
+   Microphones; Dynamics; Training; Audio synthesis; gesture interaction;
+   human computer interaction; virtual reality
+ID HAND; HEAD
+AB Current virtual reality (VR) system takes gesture interaction based on camera, handle and touch screen as one of the mainstream interaction methods, which can provide accurate gesture input for it. However, limited by application forms and the volume of devices, these methods cannot extend the interaction area to such surfaces as walls and tables. To address the above challenge, we propose AudioGest, a portable, plug-and-play system that detects the audio signal generated by finger tapping and sliding on the surface through a set of microphone devices without extensive calibration. First, an audio synthesis-recognition pipeline based on micro-contact dynamics simulation is constructed to generate modal audio synthesis from different materials and physical properties. Then the accuracy and effectiveness of the synthetic audio are verified by mixing the synthetic audio with real audio proportionally as the training sets. Finally, a series of desktop office applications are developed to demonstrate the application potential of AudioGest's scalability and versatility in VR scenarios.
+C1 [Liu, Tong; Xiao, Yi; Hu, Mingwei; Sha, Hao; Ma, Shining] Beijing Inst Technol, Sch Opt & Photon, Beijing Engn Res Ctr Mixed Real & Adv Display, Beijing 100811, Peoples R China.
+   [Liu, Yue; Song, Weitao] Beijing Inst Technol, Zhengzhou Res Inst, Sch Opt & Photon, Beijing Engn Res Ctr Mixed Real & Adv Display, Beijing 100811, Peoples R China.
+   [Gao, Boyu] Jinan Univ, Coll Informat Sci & Technol Cyber Secur, Guangzhou 510632, Peoples R China.
+   [Guo, Shihui] Xiamen Univ, Software Sch, Xiamen 361005, Peoples R China.
+RP Liu, Y; Song, WT (corresponding author), Beijing Inst Technol, Zhengzhou Res Inst, Sch Opt & Photon, Beijing Engn Res Ctr Mixed Real & Adv Display, Beijing 100811, Peoples R China.
+EM liuyue@bit.edu.cn; swt@bit.edu.cn
+CR Arimatsu K, 2020, PROCEEDINGS OF THE 2020 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS (CHI'20), DOI 10.1145/3313831.3376712
+   Aziz KMA, 2020, INT SYM MIX AUGMENT, P239, DOI 10.1109/ISMAR50242.2020.00047
+   Bangor A, 2008, INT J HUM-COMPUT INT, V24, P574, DOI 10.1080/10447310802205776
+   Bolker BM, 2009, TRENDS ECOL EVOL, V24, P127, DOI 10.1016/j.tree.2008.10.008
+   Chen JJ, 2023, Symposium Virtual Re, P11, DOI 10.1109/VR55154.2023.00017
+   Chen P, 2013, ACTA MECH SINICA-PRC, V29, P437, DOI 10.1007/s10409-013-0032-3
+   Chen TZ, 2021, IEEE T VIS COMPUT GR, V27, P2597, DOI 10.1109/TVCG.2021.3067689
+   Cho W, 2020, INT SYM MIX AUGMENT, P251, DOI 10.1109/ISMAR50242.2020.00048
+   Choi I, 2018, PROCEEDINGS OF THE 2018 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS (CHI 2018), DOI 10.1145/3173574.3174228
+   Englmeier D, 2020, INT SYM MIX AUGMENT, P618, DOI 10.1109/ISMAR50242.2020.00089
+   Faleel SAM, 2021, IEEE T VIS COMPUT GR, V27, P4215, DOI 10.1109/TVCG.2021.3106493
+   Feick M, 2023, Symposium Virtual Re, P194, DOI 10.1109/VR55154.2023.00035
+   Gao RH, 2022, PROC CVPR IEEE, P10588, DOI 10.1109/CVPR52688.2022.01034
+   Gao RH, 2021, Arxiv, DOI arXiv:2109.07991
+   Glauser O, 2019, ACM T GRAPHIC, V38, DOI 10.1145/3311972
+   Gong J, 2020, PROCEEDINGS OF THE 33RD ANNUAL ACM SYMPOSIUM ON USER INTERFACE SOFTWARE AND TECHNOLOGY, UIST 2020, P406, DOI 10.1145/3379337.3415901
+   Gosala N, 2023, IEEE T VIS COMPUT GR, V29, P1769, DOI 10.1109/TVCG.2021.3131230
+   Gustafsson F, 2003, 2003 IEEE INTERNATIONAL CONFERENCE ON ACOUSTICS, SPEECH, AND SIGNAL PROCESSING, VOL VI, PROCEEDINGS, P553
+   Hart S. G., 2006, P HUM FACT ERG SOC A, V50, P904
+   He KM, 2016, PROC CVPR IEEE, P770, DOI 10.1109/CVPR.2016.90
+   Howard A, 2019, IEEE I CONF COMP VIS, P1314, DOI 10.1109/ICCV.2019.00140
+   Hu J, 2018, PROC CVPR IEEE, P7132, DOI [10.1109/TPAMI.2019.2913372, 10.1109/CVPR.2018.00745]
+   Le HV, 2018, UIST 2018: PROCEEDINGS OF THE 31ST ANNUAL ACM SYMPOSIUM ON USER INTERFACE SOFTWARE AND TECHNOLOGY, P779, DOI 10.1145/3242587.3242605
+   Iravantchi Y, 2019, CHI 2019: PROCEEDINGS OF THE 2019 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS, DOI 10.1145/3290605.3300506
+   Jin XT, 2020, MM '20: PROCEEDINGS OF THE 28TH ACM INTERNATIONAL CONFERENCE ON MULTIMEDIA, P1171, DOI 10.1145/3394171.3413572
+   Kingma D., 2014, arXiv, DOI DOI 10.48550/ARXIV.1412.6980
+   Kumar P., 2012, INT J ADV SCI TECHNO, V43, P15
+   Lee J, 2019, CHI 2019: PROCEEDINGS OF THE 2019 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS, DOI 10.1145/3290605.3300301
+   Leng ZY, 2021, 2021 IEEE VIRTUAL REALITY AND 3D USER INTERFACES (VR), P226, DOI 10.1109/VR50410.2021.00044
+   Lissermann R., 2013, P HUM FACT COMP SYST, P1323, DOI [10.1145/2468356.2468592, DOI 10.1145/2468356.2468592]
+   Meier M, 2021, 2021 IEEE VIRTUAL REALITY AND 3D USER INTERFACES (VR), P519, DOI 10.1109/VR50410.2021.00076
+   Mingshi Chen, 2019, Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, V3, DOI 10.1145/3314390
+   Monteiro P, 2021, IEEE T VIS COMPUT GR, V27, P2702, DOI 10.1109/TVCG.2021.3067687
+   Muller M., 2007, Information Retrieval for Music and Motion, P69, DOI [DOI 10.1007/978-3-540-74048-34, 10.1007/978-3-540-74048-3_4, DOI 10.1007/978-3-540-74048-3_4, DOI 10.1007/978-3-540-74048-3]
+   Owens A, 2016, PROC CVPR IEEE, P2405, DOI 10.1109/CVPR.2016.264
+   Pan SJ, 2010, IEEE T KNOWL DATA EN, V22, P1345, DOI 10.1109/TKDE.2009.191
+   Park G, 2020, INT SYM MIX AUGMENT, P588, DOI 10.1109/ISMAR50242.2020.00086
+   Raghuvanshi N, 2006, Rough Surfaces, P101, DOI DOI 10.1145/1111411.1111429
+   ROY R, 1989, IEEE T ACOUST SPEECH, V37, P984, DOI 10.1109/29.32276
+   Shen JX, 2022, IEEE T VIS COMPUT GR, V28, P3618, DOI 10.1109/TVCG.2022.3203004
+   Shi Y., 2020, P AUGM HUM INT C, P1
+   Shorten C, 2019, J BIG DATA-GER, V6, DOI 10.1186/s40537-019-0197-0
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Steiglitz K., 1997, A Digital Signal Processing Primer, With Applications to Digital Audio and Computer Music
+   Thomas F, 2005, IEEE T ROBOT, V21, P93, DOI 10.1109/TRO.2004.833793
+   van den Doel K, 2001, COMP GRAPH, P537, DOI 10.1145/383259.383322
+   Wagner J, 2021, IEEE T VIS COMPUT GR, V27, P2513, DOI 10.1109/TVCG.2021.3067759
+   Wang Cheng-Yao., 2015, Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI'15), P217
+   Weissker Tim, 2021, IEEE Transactions on Visualization and Computer Graphics, V27, P2524, DOI 10.1109/TVCG.2021.3067756
+   Worrallo AG, 2022, IEEE T VIS COMPUT GR, V28, P4186, DOI 10.1109/TVCG.2021.3083411
+   Xu XH, 2020, PROCEEDINGS OF THE 2020 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS (CHI'20), DOI 10.1145/3313831.3376836
+   Yu DF, 2022, INT SYM MIX AUGMENT, P637, DOI 10.1109/ISMAR55827.2022.00081
+   Zhang Y, 2017, PROCEEDINGS OF THE 2017 ACM SIGCHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS (CHI'17), P1, DOI 10.1145/3025453.3025842
+NR 53
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA
+PD FEB
+PY 2025
+VL 31
+IS 2
+BP 1569
+EP 1581
+DI 10.1109/TVCG.2024.3397868
+ER
+
+EF

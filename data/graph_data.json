@@ -1,0 +1,33 @@
+{
+    "nodes": [
+        {
+            "id": "EvoVis: A Visual Analytics Method to Understand the Labeling Iterations in Data Programming",
+            "group": 1
+        },
+        {
+            "id": "Li, Sisi",
+            "group": 2
+        },
+        {
+            "id": "Tianjin Univ",
+            "group": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "EvoVis: A Visual Analytics Method to Understand the Labeling Iterations in Data Programming",
+            "target": "Li, Sisi",
+            "value": 1
+        },
+        {
+            "source": "EvoVis: A Visual Analytics Method to Understand the Labeling Iterations in Data Programming",
+            "target": "Tianjin Univ",
+            "value": 1
+        },
+        {
+            "source": "EvoVis: A Visual Analytics Method to Understand the Labeling Iterations in Data Programming",
+            "target": "Wei, Tianxiang",
+            "value": 1
+        }
+    ]
+}

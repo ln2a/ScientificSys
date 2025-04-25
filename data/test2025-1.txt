@@ -1,0 +1,2976 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Manz, Trevor
+   Lekschas, Fritz
+   Greene, Evan
+   Finak, Greg
+   Gehlenborg, Nils
+TI A General Framework for Comparing Embedding Visualizations Across
+   Class-Label Hierarchies
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 283
+EP 293
+DI 10.1109/TVCG.2024.3456370
+DT Article
+PD JAN 2025
+PY 2025
+AB Projecting high-dimensional vectors into two dimensions for
+   visualization, known as embedding visualization, facilitates perceptual
+   reasoning and interpretation. Comparing multiple embedding
+   visualizations drives decision-making in many domains, but traditional
+   comparison methods are limited by a reliance on direct point
+   correspondences. This requirement precludes comparisons without point
+   correspondences, such as two different datasets of annotated images, and
+   fails to capture meaningful higher-level relationships among point
+   groups. To address these shortcomings, we propose a general framework
+   for comparing embedding visualizations based on shared class labels
+   rather than individual points. Our approach partitions points into
+   regions corresponding to three key class concepts-confusion,
+   neighborhood, and relative size-to characterize intra- and inter-class
+   relationships. Informed by a preliminary user study, we implemented our
+   framework using perceptual neighborhood graphs to define these regions
+   and introduced metrics to quantify each concept. We demonstrate the
+   generality of our framework with usage scenarios from machine learning
+   and single-cell biology, highlighting our metrics' ability to draw
+   insightful comparisons across label hierarchies. To assess the
+   effectiveness of our approach, we conducted an evaluation study with
+   five machine learning researchers and six single-cell biologists using
+   an interactive and scalable prototype built with Python, JavaScript, and
+   Rust. Our metrics enable more structured comparisons through visual
+   guidance and increased participants' confidence in their findings.
+ZS 0
+ZA 0
+TC 0
+ZR 0
+ZB 0
+Z8 0
+Z9 0
+DA 2024-12-11
+UT WOS:001370107500003
+PM 39255153
+ER
+
+PT J
+AU Tong, Wai
+   Shigyo, Kento
+   Yuan, Lin-Ping
+   Fan, Mingming
+   Pong, Ting-Chuen
+   Qu, Huamin
+   Xia, Meng
+TI VisTellAR: Embedding Data Visualization to Short-Form Videos Using
+   Mobile Augmented Reality
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1862
+EP 1874
+DI 10.1109/TVCG.2024.3372104
+DT Article
+PD MAR 2025
+PY 2025
+AB With the rise of short-form video platforms and the increasing
+   availability of data, we see the potential for people to share
+   short-form videos embedded with data in situ (e.g., daily steps when
+   running) to increase the credibility and expressiveness of their
+   stories. However, creating and sharing such videos in situ is
+   challenging since it involves multiple steps and skills (e.g., data
+   visualization creation and video editing), especially for amateurs. By
+   conducting a formative study (N=10) using three design probes, we
+   collected the motivations and design requirements. We then built
+   VisTellAR, a mobile AR authoring tool, to help amateur video creators
+   embed data visualizations in short-form videos in situ. A two-day user
+   study shows that participants (N=12) successfully created various videos
+   with data visualizations in situ and they confirmed the ease of use and
+   learning. AR pre-stage authoring was useful to assist people in setting
+   up data visualizations in reality with more designs in camera movements
+   and interaction with gestures and physical objects to storytelling.
+Z8 0
+ZB 0
+ZA 0
+TC 0
+ZR 0
+ZS 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200014
+PM 38427541
+ER
+
+PT J
+AU Dyken, Landon
+   Usher, Will
+   Kumar, Sidharth
+TI Interactive Isosurface Visualization in Memory Constrained Environments
+   Using Deep Learning and Speculative Raycasting
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1582
+EP 1597
+DI 10.1109/TVCG.2024.3420225
+DT Article
+PD FEB 2025
+PY 2025
+AB New web technologies have enabled the deployment of powerful GPU-based
+   computational pipelines that run entirely in the web browser, opening a
+   new frontier for accessible scientific visualization applications.
+   However, these new capabilities do not address the memory constraints of
+   lightweight end-user devices encountered when attempting to visualize
+   the massive data sets produced by today's simulations and data
+   acquisition systems. We propose a novel implicit isosurface rendering
+   algorithm for interactive visualization of massive volumes within a
+   small memory footprint. We achieve this by progressively traversing a
+   wavefront of rays through the volume and decompressing blocks of the
+   data on-demand to perform implicit ray-isosurface intersections,
+   displaying intermediate results each pass. We improve the quality of
+   these intermediate results using a pretrained deep neural network that
+   reconstructs the output of early passes, allowing for interactivity with
+   better approximates of the final image. To accelerate rendering and
+   increase GPU utilization, we introduce speculative ray-block
+   intersection into our algorithm, where additional blocks are traversed
+   and intersected speculatively along rays to exploit additional
+   parallelism in the workload. Our algorithm is able to trade-off image
+   quality to greatly decrease rendering time for interactive rendering
+   even on lightweight devices. Our entire pipeline is run in parallel on
+   the GPU to leverage the parallel computing power that is available even
+   on lightweight end-user devices. We compare our algorithm to the state
+   of the art in low-overhead isosurface extraction and demonstrate that it
+   achieves 1.7x-5.7x reductions in memory overhead and up to 8.4x
+   reductions in data decompressed.
+ZB 0
+ZA 0
+Z8 0
+ZR 0
+ZS 0
+TC 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200016
+PM 38941206
+ER
+
+PT J
+AU Tang, Kaiyuan
+   Wang, Chaoli
+TI StyleRF-VolVis: Style Transfer of Neural Radiance Fields for Expressive
+   Volume Visualization
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 613
+EP 623
+DI 10.1109/TVCG.2024.3456342
+DT Article
+PD JAN 2025
+PY 2025
+AB In volume visualization, visualization synthesis has attracted much
+   attention due to its ability to generate novel visualizations without
+   following the conventional rendering pipeline. However, existing
+   solutions based on generative adversarial networks often require many
+   training images and take significant training time. Still, issues such
+   as low quality, consistency, and flexibility persist. This paper
+   introduces StyleRF-VolVis, an innovative style transfer framework for
+   expressive volume visualization (VolVis) via neural radiance field
+   (NeRF). The expressiveness of StyleRF-VolVis is upheld by its ability to
+   accurately separate the underlying scene geometry (i.e., content) and
+   color appearance (i.e., style), conveniently modify color, opacity, and
+   lighting of the original rendering while maintaining visual content
+   consistency across the views, and effectively transfer arbitrary styles
+   from reference images to the reconstructed 3D scene. To achieve these,
+   we design a base NeRF model for scene geometry extraction, a palette
+   color network to classify regions of the radiance field for
+   photorealistic editing, and an unrestricted color network to lift the
+   color palette constraint via knowledge distillation for
+   non-photorealistic editing. We demonstrate the superior quality,
+   consistency, and flexibility of StyleRF-VolVis by experimenting with
+   various volume rendering scenes and reference images and comparing
+   StyleRF-VolVis against other image-based (AdaIN), video-based (ReReVST),
+   and NeRF-based (ARF and SNeRF) style rendering solutions.
+ZB 0
+Z8 0
+ZA 0
+ZR 0
+ZS 0
+TC 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800001
+PM 39255154
+ER
+
+PT J
+AU Pavanatto, Leonardo
+   Lu, Feiyu
+   North, Chris
+   Bowman, Doug A.
+TI Multiple Monitors or Single Canvas? Evaluating Window Management and
+   Layout Strategies on Virtual Displays
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1713
+EP 1730
+DI 10.1109/TVCG.2024.3368930
+DT Article
+PD MAR 2025
+PY 2025
+AB Virtual displays enabled through head-worn augmented reality have unique
+   characteristics that can yield extensive amounts of screen space.
+   Existing research has shown that increasing the space on a computer
+   screen can enhance usability. Since virtual displays offer the unique
+   ability to present content without rigid physical space constraints,
+   they provide various new design possibilities. Therefore, we must
+   understand the trade-offs of layout choices when structuring that space.
+   We propose a single Canvas approach that eliminates boundaries from
+   traditional multi-monitor approaches and instead places windows in one
+   large, unified space. Our user study compared this approach against a
+   multi-monitor setup, and we considered both purely virtual systems and
+   hybrid systems that included a physical monitor. We looked into
+   usability factors such as performance, accuracy, and overall window
+   management. Results show that Canvas displays can cause users to compact
+   window layouts more than multiple monitors with snapping behavior, even
+   though such optimizations may not lead to longer window management
+   times. We did not find conclusive evidence of either setup providing a
+   better user experience. Multi-Monitor displays offer quick window
+   management with snapping and a structured layout through subdivisions.
+   However, Canvas displays allow for more control in placement and size,
+   lowering the amount of space used and, thus, head rotation.
+   Multi-Monitor benefits were more prominent in the hybrid configuration,
+   while the Canvas display was more beneficial in the purely virtual
+   configuration.
+ZB 0
+ZR 0
+TC 0
+ZA 0
+Z8 0
+ZS 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200004
+PM 38386585
+ER
+
+PT J
+AU Xing, Jinbo
+   Xia, Menghan
+   Liu, Yuxin
+   Zhang, Yuechen
+   Zhang, Yong
+   He, Yingqing
+   Liu, Hanyuan
+   Chen, Haoxin
+   Cun, Xiaodong
+   Wang, Xintao
+   Shan, Ying
+   Wong, Tien-Tsin
+TI Make-Your-Video: Customized Video Generation Using Textual and
+   Structural Guidance
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1526
+EP 1541
+DI 10.1109/TVCG.2024.3365804
+DT Article
+PD FEB 2025
+PY 2025
+AB Creating a vivid video from the event or scenario in our imagination is
+   a truly fascinating experience. Recent advancements in text-to-video
+   synthesis have unveiled the potential to achieve this with prompts only.
+   While text is convenient in conveying the overall scene context, it may
+   be insufficient to control precisely. In this paper, we explore
+   customized video generation by utilizing text as context description and
+   motion structure (e.g., frame-wise depth) as concrete guidance. Our
+   method, dubbed Make-Your-Video, involves joint-conditional video
+   generation using a Latent Diffusion Model that is pre-trained for still
+   image synthesis and then promoted for video generation with the
+   introduction of temporal modules. This two-stage learning scheme not
+   only reduces the computing resources required, but also improves the
+   performance by transferring the rich concepts available in image
+   datasets solely into video generation. Moreover, we use a simple yet
+   effective causal attention mask strategy to enable longer video
+   synthesis, which mitigates the potential quality degradation
+   effectively. Experimental results show the superiority of our method
+   over existing baselines, particularly in terms of temporal coherence and
+   fidelity to users' guidance. In addition, our model enables several
+   intriguing applications that demonstrate potential for practical usage.
+ZR 0
+TC 3
+ZA 0
+ZB 0
+ZS 0
+Z8 1
+Z9 3
+DA 2025-01-19
+UT WOS:001392823200008
+PM 38354074
+ER
+
+PT J
+AU L'Yi, Sehi
+   van den Brandt, Astrid
+   Adams, Etowah
+   Nguyen, Huyen N.
+   Gehlenborg, Nils
+TI Learnable and Expressive Visualization Authoring Through Blended
+   Interfaces
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 459
+EP 469
+DI 10.1109/TVCG.2024.3456598
+DT Article
+PD JAN 2025
+PY 2025
+AB A wide range of visualization authoring interfaces enable the creation
+   of highly customized visualizations. However, prioritizing
+   expressiveness often impedes the learnability of the authoring
+   interface. The diversity of users, such as varying computational skills
+   and prior experiences in user interfaces, makes it even more challenging
+   for a single authoring interface to satisfy the needs of a broad
+   audience. In this paper, we introduce a framework to balance
+   learnability and expressivity in a visualization authoring system.
+   Adopting insights from learnability studies, such as multimodal
+   interaction and visualization literacy, we explore the design space of
+   blending multiple visualization authoring interfaces for supporting
+   authoring tasks in a complementary and flexible manner. To evaluate the
+   effectiveness of blending interfaces, we implemented a proof-of-concept
+   system, Blace, that combines four common visualization authoring
+   interfaces-template-based, shelf configuration, natural language, and
+   code editor-that are tightly linked to one another to help users easily
+   relate unfamiliar interfaces to more familiar ones. Using the system, we
+   conducted a user study with 12 domain experts who regularly visualize
+   genomics data as part of their analysis workflow. Participants with
+   varied visualization and programming backgrounds were able to
+   successfully reproduce unfamiliar visualization examples without a
+   guided tutorial in the study. Feedback from a post-study qualitative
+   questionnaire further suggests that blending interfaces enabled
+   participants to learn the system easily and assisted them in confidently
+   editing unfamiliar visualization grammar in the code editor, enabling
+   expressive customization. Reflecting on our study results and the design
+   of our system, we discuss the different interaction patterns that we
+   identified and design implications for blending visualization authoring
+   interfaces.
+ZS 0
+ZB 0
+Z8 0
+TC 0
+ZR 0
+ZA 0
+Z9 0
+DA 2024-12-11
+UT WOS:001370107500004
+PM 39255109
+ER
+
+PT J
+AU Filipov, Velitchko
+   Ceneda, Davide
+   Archambault, Daniel
+   Arleo, Alessio
+TI TimeLighting: Guided Exploration of 2D Temporal Network Projections
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1932
+EP 1944
+DI 10.1109/TVCG.2024.3514858
+DT Article
+PD MAR 2025
+PY 2025
+AB In temporal (event-based) networks, time is a continuous axis, with
+   real-valued time coordinates for each node and edge. Computing a layout
+   for such graphs means embedding the node trajectories and edge surfaces
+   over time in a 2D + t space, known as the space-time cube. Currently,
+   these space-time cube layouts are visualized through animation or by
+   slicing the cube at regular intervals. However, both techniques present
+   problems such as below-average performance on tasks as well as loss of
+   precision and difficulties in selecting timeslice intervals. In this
+   article, we present TimeLighting, a novel visual analytics approach to
+   visualize and explore temporal graphs embedded in the space-time cube.
+   Our interactive approach highlights node trajectories and their movement
+   over time, visualizes node "aging", and provides guidance to support
+   users during exploration by indicating interesting time intervals
+   ("when") and network elements ("where") are located for a
+   detail-oriented investigation. This combined focus helps to gain deeper
+   insights into the temporal network's underlying behavior. We assess the
+   utility and efficacy of our approach through two case studies and
+   qualitative expert evaluation. The results demonstrate how TimeLighting
+   supports identifying temporal patterns, extracting insights from nodes
+   with high activity, and guiding the exploration and analysis process.
+Z8 0
+ZS 0
+TC 0
+ZA 0
+ZR 0
+ZB 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200007
+ER
+
+PT J
+AU Lee, Ho Jung
+   Jeon, Sang-Bin
+   Cho, Yong-Hun
+   Lee, In-Kwon
+TI MARR: A Multi-Agent Reinforcement Resetter for Redirected Walking
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1664
+EP 1676
+DI 10.1109/TVCG.2024.3368043
+DT Article
+PD MAR 2025
+PY 2025
+AB The reset technique of Redirected Walking (RDW) forcibly reorients the
+   user's direction overtly to avoid collisions with boundaries, obstacles,
+   or other users in the physical space. However, excessive resetting can
+   decrease the user's sense of immersion and presence. Several RDW studies
+   have been conducted to address this issue. Among them, much research has
+   been done on reset techniques that reduce the number of resets by
+   devising reset direction rules or optimizing them for a given
+   environment. However, existing optimization studies on reset techniques
+   have mainly focused on a single-user environment. In a multi-user
+   environment, the dynamic movement of other users and static obstacles in
+   the physical space increase the possibility of resetting. In this study,
+   we propose Multi-Agent Reinforcement Resetter (MARR), which resets the
+   user taking into account both physical obstacles and multi-user movement
+   to minimize the number of resets. MARR is trained using multi-agent
+   reinforcement learning to determine the optimal reset direction in
+   different environments. This approach allows MARR to effectively account
+   for different environmental contexts, including arbitrary physical
+   obstacles and the dynamic movements of other users in the same physical
+   space. We compared MARR to other reset technologies through simulation
+   tests and user studies, and found that MARR outperformed the existing
+   methods. MARR improved performance by learning the optimal reset
+   direction for each subtle technique used in training. MARR has the
+   potential to be applied to new subtle techniques proposed in the future.
+   Overall, our study confirmed that MARR is an effective reset technique
+   in multi-user environments.
+ZR 0
+ZA 0
+Z8 0
+ZS 0
+TC 0
+ZB 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200008
+PM 38381627
+ER
+
+PT J
+AU Li, Bo
+   Wei, Xiaolin
+   Liu, Bin
+   He, Zhifen
+   Cao, Junjie
+   Lai, Yu-Kun
+TI Pose-Aware 3D Talking Face Synthesis Using Geometry-Guided
+   Audio-Vertices Attention
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1758
+EP 1771
+DI 10.1109/TVCG.2024.3371064
+DT Article
+PD MAR 2025
+PY 2025
+AB Most of the existing 3D talking face synthesis methods suffer from the
+   lack of detailed facial expressions and realistic head poses, resulting
+   in unsatisfactory experiences for users. In this article, we propose a
+   novel pose-aware 3D talking face synthesis method with a novel
+   geometry-guided audio-vertices attention. To capture more detailed
+   expression, such as the subtle nuances of mouth shape and eye movement,
+   we propose to build hierarchical audio features including a global
+   attribute feature and a series of vertex-wise local latent movement
+   features. Then, in order to fully exploit the topology of facial models,
+   we further propose a novel geometry-guided audio-vertices attention
+   module to predict the displacement of each vertex by using vertex
+   connectivity relations to take full advantage of the corresponding
+   hierarchical audio features. Finally, to accomplish pose-aware
+   animation, we expand the existing database with an additional pose
+   attribute, and a novel pose estimation module is proposed by paying
+   attention to the whole head model. Numerical experiments demonstrate the
+   effectiveness of the proposed method on realistic expression and head
+   movements against state-of-the-art methods.
+ZR 0
+TC 0
+ZB 0
+ZS 0
+Z8 0
+ZA 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200006
+PM 38416616
+ER
+
+PT J
+AU van den Brandt, Astrid
+   L'Yi, Sehi
+   Nguyen, Huyen N.
+   Vilanova, Anna
+   Gehlenborg, Nils
+TI Understanding Visualization Authoring Techniques for Genomics Data in
+   the Context of Personas and Tasks
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 1180
+EP 1190
+DI 10.1109/TVCG.2024.3456298
+DT Article
+PD JAN 2025
+PY 2025
+AB Genomics experts rely on visualization to extract and share insights
+   from complex and large-scale datasets. Beyond off-the-shelf tools for
+   data exploration, there is an increasing need for platforms that aid
+   experts in authoring customized visualizations for both exploration and
+   communication of insights. A variety of interactive techniques have been
+   proposed for authoring data visualizations, such as template editing,
+   shelf configuration, natural language input, and code editors. However,
+   it remains unclear how genomics experts create visualizations and which
+   techniques best support their visualization tasks and needs. To address
+   this gap, we conducted two user studies with genomics researchers: (1)
+   semi-structured interviews (n=20) to identify the tasks, user contexts,
+   and current visualization authoring techniques and (2) an exploratory
+   study (n=13) using visual probes to elicit users' intents and desired
+   techniques when creating visualizations. Our contributions include (1) a
+   characterization of how visualization authoring is currently utilized in
+   genomics visualization, identifying limitations and benefits in light of
+   common criteria for authoring tools, and (2) generalizable design
+   implications for genomics visualization authoring tools based on our
+   findings on task- and user-specific usefulness of authoring techniques.
+   All supplemental materials are available at https://osf.io/bdj4v/.
+TC 0
+ZB 0
+ZA 0
+ZS 0
+ZR 0
+Z8 0
+Z9 0
+DA 2024-12-11
+UT WOS:001370107500001
+PM 39288066
+ER
+
+PT J
+AU Li, Yuxiao
+   Liang, Xin
+   Wang, Bei
+   Qiu, Yongfeng
+   Yan, Lin
+   Guo, Hanqi
+TI MSz: An Efficient Parallel Algorithm for Correcting Morse-Smale
+   Segmentations in Error-Bounded Lossy Compressors
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 130
+EP 140
+DI 10.1109/TVCG.2024.3456337
+DT Article
+PD JAN 2025
+PY 2025
+AB This research explores a novel paradigm for preserving topological
+   segmentations in existing error-bounded lossy compressors. Today's lossy
+   compressors rarely consider preserving topologies such as Morse-Smale
+   complexes, and the discrepancies in topology between original and
+   decompressed datasets could potentially result in erroneous
+   interpretations or even incorrect scientific conclusions. In this paper,
+   we focus on preserving Morse-Smale segmentations in 2D/3D piecewise
+   linear scalar fields, targeting the precise reconstruction of
+   minimum/maximum labels induced by the integral line of each vertex. The
+   key is to derive a series of edits during compression time. These edits
+   are applied to the decompressed data, leading to an accurate
+   reconstruction of segmentations while keeping the error within the
+   prescribed error bound. To this end, we develop a workflow to fi x ex
+   trema an d in tegral lines alternatively until convergence within finite
+   iterations. We accelerate each workflow component with shared-memory/GPU
+   parallelism to make the performance practical for coupling with
+   compressors. We demonstrate use cases with fluid dynamics, ocean, and
+   cosmology application datasets with a significant acceleration with an
+   NVIDIA A100 GPU.
+Z8 0
+ZS 0
+TC 0
+ZA 0
+ZR 0
+ZB 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800007
+PM 39255146
+ER
+
+PT J
+AU Wootton, Dylan
+   Fox, Amy Rae
+   Peck, Evan
+   Satyanarayan, Arvind
+TI Charting EDA: Characterizing Interactive Visualization Use in
+   Computational Notebooks with a Mixed-Methods Formalism
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 1191
+EP 1201
+DI 10.1109/TVCG.2024.3456217
+DT Article
+PD JAN 2025
+PY 2025
+AB Interactive visualizations are powerful tools for Exploratory Data
+   Analysis (EDA), but how do they affect the observations analysts make
+   about their data? We conducted a qualitative experiment with 13
+   professional data scientists analyzing two datasets with Jupyter
+   notebooks, collecting a rich dataset of interaction traces and
+   think-aloud utterances. By qualitatively coding participant utterances,
+   we introduce a formalism that describes EDA as a sequence of analysis
+   states, where each state is comprised of either a representation an
+   analyst constructs (e.g., the output of a data frame, an interactive
+   visualization, etc.) or an observation the analyst makes (e.g., about
+   missing data, the relationship between variables, etc.). By applying our
+   formalism to our dataset, we identify that interactive visualizations,
+   on average, lead to earlier and more complex insights about
+   relationships between dataset attributes compared to static
+   visualizations. Moreover, by calculating metrics such as revisit count
+   and representational diversity, we uncover that some representations
+   serve more as "planning aids" during EDA rather than tools strictly for
+   hypothesis-answering. We show how these measures help identify other
+   patterns of analysis behavior, such as the "80-20 rule", where a small
+   subset of representations drove the majority of observations. Based on
+   these findings, we offer design guidelines for interactive exploratory
+   analysis tooling and reflect on future directions for studying the role
+   that visualizations play in EDA.
+Z8 0
+ZS 0
+ZA 0
+TC 0
+ZB 0
+ZR 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800005
+PM 39388331
+ER
+
+PT J
+AU Si, Lei
+   Cao, Haowei
+   Chen, Guoning
+TI Hybrid Base Complex: Extract and Visualize Structure of Hex-Dominant
+   Meshes
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1818
+EP 1829
+DI 10.1109/TVCG.2024.3372333
+DT Article
+PD MAR 2025
+PY 2025
+AB Hex-dominant mesh generation has received significant attention in
+   recent research due to its superior robustness compared to pure hex-mesh
+   generation techniques. In this work, we introduce the first structure
+   for analyzing hex-dominant meshes. This structure builds on the base
+   complex of pure hex-meshes but incorporates the non-hex elements for a
+   more comprehensive and complete representation. We provide its
+   definition and describe its construction steps. Based on this structure,
+   we present an extraction and categorization of sheets using advanced
+   graph matching techniques to handle the non-hex elements. This enables
+   us to develop an enhanced visual analysis of the structure for any
+   hex-dominant meshes. We apply this structure-based visual analysis to
+   compare hex-dominant meshes generated by different methods to study
+   their advantages and disadvantages. This complements the standard
+   quality metric based on the non-hex element percentage for hex-dominant
+   meshes. Moreover, we propose a strategy to extract a cleaned (optimized)
+   valence-based singularity graph wireframe to analyze the structure for
+   both mesh and sheets. Our results demonstrate that the proposed hybrid
+   base complex provides a coarse representation for mesh element, and the
+   proposed valence singularity graph wireframe provides a better internal
+   visualization of hex-dominant meshes.
+TC 0
+ZR 0
+Z8 0
+ZB 0
+ZS 0
+ZA 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200011
+PM 38427539
+ER
+
+PT J
+AU Li, Haoyu
+   Shen, Han-Wei
+TI Improving Efficiency of Iso-Surface Extraction on Implicit Neural
+   Representations Using Uncertainty Propagation
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1513
+EP 1525
+DI 10.1109/TVCG.2024.3365089
+DT Article
+PD FEB 2025
+PY 2025
+AB Implicit Neural representations (INRs) are widely used for scientific
+   data reduction and visualization by modeling the function that maps a
+   spatial location to a data value. Without any prior knowledge about the
+   spatial distribution of values, we are forced to sample densely from
+   INRs to perform visualization tasks like iso-surface extraction which
+   can be very computationally expensive. Recently, range analysis has
+   shown promising results in improving the efficiency of geometric
+   queries, such as ray casting and hierarchical mesh extraction, on INRs
+   for 3D geometries by using arithmetic rules to bound the output range of
+   the network within a spatial region. However, the analysis bounds are
+   often too conservative for complex scientific data. In this article, we
+   present an improved technique for range analysis by revisiting the
+   arithmetic rules and analyzing the probability distribution of the
+   network output within a spatial region. We model this distribution
+   efficiently as a Gaussian distribution by applying the central limit
+   theorem. Excluding low probability values, we are able to tighten the
+   output bounds, resulting in a more accurate estimation of the value
+   range, and hence more accurate identification of iso-surface cells and
+   more efficient iso-surface extraction on INRs. Our approach demonstrates
+   superior performance in terms of the iso-surface extraction time on four
+   datasets compared to the original range analysis method and can also be
+   generalized to other geometric query tasks.
+ZR 0
+TC 1
+ZA 0
+ZS 0
+ZB 0
+Z8 0
+Z9 1
+DA 2025-01-19
+UT WOS:001392823200007
+PM 38349830
+ER
+
+PT J
+AU Podo, Luca
+   Prenkaj, Bardh
+   Velardi, Paola
+TI Agnostic Visual Recommendation Systems: Open Challenges and Future
+   Directions
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1902
+EP 1917
+DI 10.1109/TVCG.2024.3374571
+DT Article
+PD MAR 2025
+PY 2025
+AB Visualization Recommendation Systems (VRSs) are a novel and challenging
+   field of study aiming to help generate insightful visualizations from
+   data and support non-expert users in information discovery. Among the
+   many contributions proposed in this area, some systems embrace the
+   ambitious objective of imitating human analysts to identify relevant
+   relationships in data and make appropriate design choices to represent
+   these relationships with insightful charts. We denote these systems as
+   "agnostic" VRSs since they do not rely on human-provided constraints and
+   rules but try to learn the task autonomously. Despite the high
+   application potential of agnostic VRSs, their progress is hindered by
+   several obstacles, including the absence of standardized datasets to
+   train recommendation algorithms, the difficulty of learning design
+   rules, and defining quantitative criteria for evaluating the perceptual
+   effectiveness of generated plots. This article summarizes the literature
+   on agnostic VRSs and outlines promising future research directions.
+ZB 0
+TC 0
+Z8 0
+ZS 0
+ZA 0
+ZR 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200021
+PM 38466597
+ER
+
+PT J
+AU Yuan, Yu-Jie
+   Han, Xinyang
+   He, Yue
+   Zhang, Fang-Lue
+   Gao, Lin
+TI MuNeRF: Robust Makeup Transfer in Neural Radiance Fields
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1746
+EP 1757
+DI 10.1109/TVCG.2024.3368443
+DT Article
+PD MAR 2025
+PY 2025
+AB There has been a high demand for facial makeup transfer tools in fashion
+   e-commerce and virtual avatar generation. Most of the existing makeup
+   transfer methods are based on the generative adversarial networks.
+   Despite their success in makeup transfer for a single image, they
+   struggle to maintain the consistency of makeup under different poses and
+   expressions of the same person. In this article, we propose a robust
+   makeup transfer method which consistently transfers the makeup style of
+   a reference image to facial images in any poses and expressions. Our
+   method introduces the implicit 3D representation, neural radiance fields
+   (NeRFs), to ensure the geometric and appearance consistency. It has two
+   separate stages, including one basic NeRF module to reconstruct the
+   geometry from the input facial image sequence, and a makeup module to
+   learn how to transfer the reference makeup style consistently. We
+   propose a novel hybrid makeup loss which is specially designed based on
+   the makeup characteristics to supervise the training of the makeup
+   module. The proposed loss significantly improves the visual quality and
+   faithfulness of the makeup transfer effects. To better align the
+   distribution between the transferred makeup and the reference makeup, a
+   patch-based discriminator that works in the pose-independent UV texture
+   space is proposed to provide more accurate control of the synthesized
+   makeup. Extensive experiments and a user study demonstrate the
+   superiority of our network for a variety of different makeup styles.
+ZA 0
+ZR 0
+Z8 0
+TC 0
+ZB 0
+ZS 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200009
+PM 38386584
+ER
+
+PT J
+AU Wu, Di
+   Li, Zhen
+   Ansari, Mohammad Hasan Dad
+   Ha, Xuan Thao
+   Ourak, Mouloud
+   Dankelman, Jenny
+   Menciassi, Arianna
+   De Momi, Elena
+   Poorten, Emmanuel Vander
+TI Comparative Analysis of Interactive Modalities for Intuitive
+   Endovascular Interventions
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1371
+EP 1388
+DI 10.1109/TVCG.2024.3362628
+DT Article
+PD FEB 2025
+PY 2025
+AB Endovascular intervention is a minimally invasive method for treating
+   cardiovascular diseases. Although fluoroscopy, known for real-time
+   catheter visualization, is commonly used, it exposes patients and
+   physicians to ionizing radiation and lacks depth perception due to its
+   2D nature. To address these limitations, a study was conducted using
+   teleoperation and 3D visualization techniques. This in-vitro study
+   involved the use of a robotic catheter system and aimed to evaluate user
+   performance through both subjective and objective measures. The focus
+   was on determining the most effective modes of interaction. Three
+   interactive modes for guiding robotic catheters were compared in the
+   study: 1) Mode GM, using a gamepad for control and a standard 2D monitor
+   for visual feedback; 2) Mode GH, with a gamepad for control and HoloLens
+   providing 3D visualization; and 3) Mode HH, where HoloLens serves as
+   both control input and visualization device. Mode GH outperformed other
+   modalities in subjective metrics, except for mental demand. It exhibited
+   a median tracking error of 4.72 mm, a median targeting error of 1.01 mm,
+   a median duration of 82.34 s, and a median natural logarithm of
+   dimensionless squared jerk of 40.38 in the in-vitro study. Mode GH
+   showed 8.5%, 4.7%, 6.5%, and 3.9% improvements over Mode GM and 1.5%,
+   33.6%, 34.9%, and 8.1% over Mode HH for tracking error, targeting error,
+   duration, and dimensionless squared jerk, respectively. To sum up, the
+   user study emphasizes the potential benefits of employing HoloLens for
+   enhanced 3D visualization in catheterization. The user study also
+   illustrates the advantages of using a gamepad for catheter
+   teleoperation, including user-friendliness and passive haptic feedback,
+   compared to HoloLens. To further gauge the potential of using a more
+   traditional joystick as a control input device, an additional study
+   utilizing the Haption Virtuose robot was conducted. It reveals the
+   potential for achieving smoother trajectories, with a 38.9% reduction in
+   total path length compared to a gamepad, potentially due to its larger
+   range of motion and single-handed control.
+ZB 0
+ZS 0
+ZR 0
+TC 2
+Z8 0
+ZA 0
+Z9 2
+DA 2025-01-19
+UT WOS:001392823200020
+PM 38319759
+ER
+
+PT J
+AU Shen, Yuancheng
+   Zhao, Yue
+   Wang, Yunhai
+   Ge, Tong
+   Shi, Haoyan
+   Lee, Bongshin
+TI Authoring Data-Driven Chart Animations Through Direct Manipulation
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1613
+EP 1630
+DI 10.1109/TVCG.2024.3491504
+DT Article
+PD FEB 2025
+PY 2025
+AB We present an authoring tool, called CAST+ (Canis Studio Plus), that
+   enables the interactive creation of chart animations through the direct
+   manipulation of keyframes. It introduces the visual specification of
+   chart animations consisting of keyframes that can be played sequentially
+   or simultaneously, and animation parameters (e.g., duration, delay).
+   Building on Canis (Ge et al. 2020), a declarative chart animation
+   grammar that leverages data-enriched SVG charts, CAST+ supports
+   auto-completion for constructing both keyframes and keyframe sequences.
+   It also enables users to refine the animation specification (e.g.,
+   aligning keyframes across tracks to play them together, adjusting delay)
+   with direct manipulation. We report a user study conducted to assess the
+   visual specification and system usability with its initial version. We
+   enhanced the system's expressiveness and usability: CAST+ now supports
+   the animation of multiple types of visual marks in the same keyframe
+   group with new auto-completion algorithms based on generalized
+   selection. This enables the creation of more expressive animations,
+   while reducing the number of interactions needed to create comparable
+   animations. We present a gallery of examples and four usage scenarios to
+   demonstrate the expressiveness of CAST+. Finally, we discuss the
+   limitations, comparison, and potentials of CAST+ as well as directions
+   for future research.
+TC 0
+ZA 0
+ZR 0
+Z8 0
+ZB 0
+ZS 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200013
+PM 39499609
+ER
+
+PT J
+AU Palamarchuk, Daniel
+   Williams, Lemara
+   Mayer, Brian
+   Danielson, Thomas
+   Faust, Rebecca
+   Deschaine, Larry
+   North, Chris
+TI Visualizing Temporal Topic Embeddings with a Compass
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 272
+EP 282
+DI 10.1109/TVCG.2024.3456143
+DT Article
+PD JAN 2025
+PY 2025
+AB Dynamic topic modeling is useful at discovering the development and
+   change in latent topics over time. However, present methodology relies
+   on algorithms that separate document and word representations. This
+   prevents the creation of a meaningful embedding space where changes in
+   word usage and documents can be directly analyzed in a temporal context.
+   This paper proposes an expansion of the compass-aligned temporal
+   Word2Vec methodology into dynamic topic modeling. Such a method allows
+   for the direct comparison of word and document embeddings across time in
+   dynamic topics. This enables the creation of visualizations that
+   incorporate temporal word embeddings within the context of documents
+   into topic visualizations. In experiments against the current
+   state-of-the-art, our proposed method demonstrates overall competitive
+   performance in topic relevancy and diversity across temporal datasets of
+   varying size. Simultaneously, it provides insightful visualizations
+   focused on temporal word embeddings while maintaining the insights
+   provided by global topic evolution, advancing our understanding of how
+   topics evolve over time.
+TC 0
+Z8 0
+ZS 0
+ZB 0
+ZR 0
+ZA 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800011
+PM 39255128
+ER
+
+PT J
+AU Chaudhury, Rimika
+   Chilana, Parmit K.
+TI Designing Visual and Interactive Self-Monitoring Interventions to
+   Facilitate Learning: Insights From Informal Learners and Experts
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1542
+EP 1556
+DI 10.1109/TVCG.2024.3366469
+DT Article
+PD FEB 2025
+PY 2025
+AB Informal learners of computational skills often find it difficult to
+   self-direct their learning pursuits, which may be spread across
+   different mediums and study sessions. Inspired by self-monitoring
+   interventions from domains such as health and productivity, we
+   investigate key requirements for helping informal learners better
+   self-reflect on their learning experiences. We carried out two
+   elicitation studies with article-based and interactive probes to explore
+   a range of manual, automatic, and semi-automatic design approaches for
+   capturing and presenting a learner's data. We found that although
+   automatically generated visual overviews of learning histories are
+   initially promising for increasing awareness, learners prefer having
+   controls to manipulate overviews through personally relevant filtering
+   options to better reflect on their past, plan for future sessions, and
+   communicate with others for feedback. To validate our findings and
+   expand our understanding of designing self-monitoring tools for use in
+   real settings, we gathered further insights from experts, who shed light
+   on factors to consider in terms of data collection techniques, designing
+   for reflections, and carrying out field studies. Our findings have
+   several implications for designing learner-centered self-monitoring
+   interventions that can be both useful and engaging for informal
+   learners.
+ZS 0
+ZA 0
+ZR 0
+ZB 0
+TC 0
+Z8 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200011
+PM 38373125
+ER
+
+PT J
+AU Ren, Tianxiang
+   Yu, Jubo
+   Guo, Shihui
+   Ma, Ying
+   Ouyang, Yutao
+   Zeng, Zijiao
+   Zhang, Yazhan
+   Qin, Yipeng
+TI Diverse Motion In-Betweening From Sparse Keyframes With Dual Posture
+   Stitching
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1402
+EP 1413
+DI 10.1109/TVCG.2024.3363457
+DT Article
+PD FEB 2025
+PY 2025
+AB In-betweening is a technique for generating transitions given start and
+   target character states. The majority of existing works require multiple
+   (often >= 10) frames as input, which are not always available. In
+   addition, they produce results that lack diversity, which may not
+   fulfill artists' requirements. Addressing these gaps, our work deals
+   with a focused yet challenging problem: generating diverse and
+   high-quality transitions given exactly two frames (only the start and
+   target frames). To cope with this challenging scenario, we propose a
+   bi-directional motion generation and stitching scheme which generates
+   forward and backward transitions from the start and target frames with
+   two adversarial autoregressive networks, respectively, and stitches them
+   midway between the start and target frames. In contrast to stitching at
+   the start or target frames, where the ground truth cannot be altered,
+   there is no strict midway ground truth. Thus, our method can capitalize
+   on this flexibility and generate high-quality and diverse transitions
+   simultaneously. Specifically, we employ conditional variational
+   autoencoders (CVAEs) to implement our autoregressive networks and
+   propose a novel stitching loss to stitch the bi-directional generated
+   motions around the midway point. Extensive experiments demonstrate that
+   our method achieves higher motion quality and more diverse results than
+   existing methods on the LaFAN1, Human3.6m and AMASS datasets.
+Z8 0
+ZS 0
+ZA 0
+ZR 0
+TC 0
+ZB 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200014
+PM 38324439
+ER
+
+PT J
+AU Chen, Honghu
+   Yao, Yuxin
+   Zhang, Juyong
+TI Neural-ABC: Neural Parametric Models for Articulated Body With Clothes
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1478
+EP 1495
+DI 10.1109/TVCG.2024.3364814
+DT Article
+PD FEB 2025
+PY 2025
+AB In this article, we introduce Neural-ABC, a novel parametric model based
+   on neural implicit functions that can represent clothed human bodies
+   with disentangled latent spaces for identity, clothing, shape, and pose.
+   Traditional mesh-based representations struggle to represent articulated
+   bodies with clothes due to the diversity of human body shapes and
+   clothing styles, as well as the complexity of poses. Our proposed model
+   provides a unified framework for parametric modeling, which can
+   represent the identity, clothing, shape and pose of the clothed human
+   body. Our proposed approach utilizes the power of neural implicit
+   functions as the underlying representation and integrates well-designed
+   structures to meet the necessary requirements. Specifically, we
+   represent the underlying body as a signed distance function and clothing
+   as an unsigned distance function, and they can be uniformly represented
+   as unsigned distance fields. Different types of clothing do not require
+   predefined topological structures or classifications, and can follow
+   changes in the underlying body to fit the body. Additionally, we
+   construct poses using a controllable articulated structure. The model is
+   trained on both open and newly constructed datasets, and our decoupling
+   strategy is carefully designed to ensure optimal performance. Our model
+   excels at disentangling clothing and identity in different shape and
+   poses while preserving the style of the clothing. We demonstrate that
+   Neural-ABC fits new observations of different types of clothing.
+   Compared to other state-of-the-art parametric models, Neural-ABC
+   demonstrates powerful advantages in the reconstruction of clothed human
+   bodies, as evidenced by fitting raw scans, depth maps and images. We
+   show that the attributes of the fitted results can be further edited by
+   adjusting their identities, clothing, shape and pose codes.
+TC 0
+ZA 0
+ZS 0
+ZB 0
+Z8 0
+ZR 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200004
+PM 38345957
+ER
+
+PT J
+AU Wang, Arran Zeyu
+   Borland, David
+   Peck, Tabitha C.
+   Wang, Wenyuan
+   Gotz, David
+TI Causal Priors and Their Influence on Judgements of Causality in
+   Visualized Data
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 765
+EP 775
+DI 10.1109/TVCG.2024.3456381
+DT Article
+PD JAN 2025
+PY 2025
+AB "Correlation does not imply causation" is a famous mantra in statistical
+   and visual analysis. However, consumers of visualizations often draw
+   causal conclusions when only correlations between variables are shown.
+   In this paper, we investigate factors that contribute to causal
+   relationships users perceive in visualizations. We collected a corpus of
+   concept pairs from variables in widely used datasets and created
+   visualizations that depict varying correlative associations using three
+   typical statistical chart types. We conducted two MTurk studies on (1)
+   preconceived notions on causal relations without charts, and (2)
+   perceived causal relations with charts, for each concept pair. Our
+   results indicate that people make assumptions about causal relationships
+   between pairs of concepts even without seeing any visualized data.
+   Moreover, our results suggest that these assumptions constitute causal
+   priors that, in combination with visualized association, impact how data
+   visualizations are interpreted. The results also suggest that causal
+   priors may lead to over- or under-estimation in perceived causal
+   relations in different circumstances, and that those priors can also
+   impact users' confidence in their causal assessments. In addition, our
+   results align with prior work, indicating that chart type may also
+   affect causal inference. Using data from the studies, we develop a model
+   to capture the interaction between causal priors and visualized
+   associations as they combine to impact a user's perceived causal
+   relations. In addition to reporting the study results and analyses, we
+   provide an open dataset of causal priors for 56 specific concept pairs
+   that can serve as a potential benchmark for future studies. We also
+   suggest remaining challenges and heuristic-based guidelines to help
+   designers improve visualization design choices to better support visual
+   causal inference.
+TC 0
+ZB 0
+ZA 0
+ZS 0
+ZR 0
+Z8 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800004
+PM 39255145
+ER
+
+PT J
+AU Xie, Xueguang
+   Gao, Yang
+   Hou, Fei
+   Cheng, Tianwei
+   Hao, Aimin
+   Qin, Hong
+TI Fluid Inverse Volumetric Modeling and Applications From Surface Motion
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1785
+EP 1801
+DI 10.1109/TVCG.2024.3370551
+DT Article
+PD MAR 2025
+PY 2025
+AB In this study, we devise a framework for volumetrically reconstructing
+   fluid from observable, measurable free surface motion. Our innovative
+   method amalgamates the benefits of deep learning and conventional
+   simulation to preserve the guiding motion and temporal coherence of the
+   reproduced fluid. We infer surface velocities by encoding and decoding
+   spatiotemporal features of surface sequences, and a 3D CNN is used to
+   generate the volumetric velocity field, which is then combined with 3D
+   labels of obstacles and boundaries. Concurrently, we employ a network to
+   estimate the fluid's physical properties. To progressively evolve the
+   flow field over time, we input the reconstructed velocity field and
+   estimated parameters into the physical simulator as the initial state.
+   Our approach yields promising results for both synthetic fluid generated
+   by different fluid solvers and captured real fluid. The developed
+   framework naturally lends itself to a variety of graphics applications,
+   such as 1) effective reproductions of fluid behaviors visually congruent
+   with the observed surface motion, and 2) physics-guided re-editing of
+   fluid scenes. Extensive experiments affirm that our novel method
+   surpasses state-of-the-art approaches for 3D fluid inverse modeling and
+   animation in graphics.
+ZS 0
+TC 35
+ZB 2
+ZA 0
+Z8 0
+ZR 0
+Z9 35
+DA 2025-02-09
+UT WOS:001413499200001
+PM 38416615
+ER
+
+PT J
+AU Tamisier, Elsa
+   Ribardiere, Mickael
+   Meneveaux, Daniel
+   Horna, Sebastien
+   Poulin, Pierre
+TI Visibility Evaluation in Microfacet Theory
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1422
+EP 1434
+DI 10.1109/TVCG.2024.3363659
+DT Article
+PD FEB 2025
+PY 2025
+AB Reflectance models capture many types of visual appearances. The most
+   plausible reflectance models follow the Microfacet theory, which is
+   specifically based on statistical representations, with an analytic
+   visibility term. This visibility term has a significant impact on
+   appearance. Visibility computed with the masking term proposed by Smith
+   (1967), and revisited by Ashikhmin et al. (2000), is nowadays considered
+   as the most plausible in the literature. It is simple and efficient to
+   evaluate for statistical distributions, but it relies on assumptions
+   that are not necessarily respected by real surfaces. This article
+   proposes an in-depth study of masking for meshed height-field surfaces,
+   generated either from measured real-world materials or from functions
+   derived from distributions of surface normals. We experimentally
+   estimate the masking (and shadowing) of surfaces using a ray-casting
+   technique, and compare their measurements with the theoretical model
+   from Smith and Ashikhmin et al. We show that their assumptions are too
+   restrictive for a majority of real-world surfaces. We propose a model
+   capable of predicting how close the theoretical masking term can be from
+   the masking term estimated by a ray-casting approach. Although most
+   surfaces break their assumptions, our results show that the term from
+   Smith and Ashikhmin et al. can still be reasonably employed for a
+   fraction in a set of more than 400 measured surfaces, with low errors
+   compared to a ray-casting masking estimation, much lower computation
+   times, and very similar visual appearances. Our model can be used to
+   predict the incurred error on a physically-based rendering simulation
+   with a microfacet-based BRDF created from real-world surfaces, instead
+   of explicitly calculating the masking term from its height field.
+Z8 0
+ZB 0
+ZA 0
+TC 0
+ZS 0
+ZR 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200010
+PM 38329853
+ER
+
+PT J
+AU Tseng, Chin
+   Wang, Arran Zeyu
+   Quadri, Ghulam Jilani
+   Szafir, Danielle Albers
+TI Shape It Up: An Empirically Grounded Approach for Designing Shape
+   Palettes
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 349
+EP 359
+DI 10.1109/TVCG.2024.3456385
+DT Article
+PD JAN 2025
+PY 2025
+AB Shape is commonly used to distinguish between categories in multi-class
+   scatterplots. However, existing guidelines for choosing effective shape
+   palettes rely largely on intuition and do not consider how these needs
+   may change as the number of categories increases. Unlike color, shapes
+   can not be represented by a numerical space, making it difficult to
+   propose general guidelines or design heuristics for using shape
+   effectively. This paper presents a series of four experiments evaluating
+   the efficiency of 39 shapes across three tasks: relative mean judgment
+   tasks, expert preference, and correlation estimation. Our results show
+   that conventional means for reasoning about shapes, such as filled
+   versus unfilled, are insufficient to inform effective palette design.
+   Further, even expert palettes vary significantly in their use of shape
+   and corresponding effectiveness. To support effective shape palette
+   design, we developed a model based on pairwise relations between shapes
+   in our experiments and the number of shapes required for a given design.
+   We embed this model in a palette design tool to give designers agency
+   over shape selection while incorporating empirical elements of
+   perceptual performance captured in our study. Our model advances
+   understanding of shape perception in visualization contexts and provides
+   practical design guidelines that can help improve categorical data
+   encodings.
+ZR 0
+TC 0
+ZA 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800010
+PM 39283798
+ER
+
+PT J
+AU Hosseinpour, Helia
+   Matzen, Laura E.
+   Divis, Kristin M.
+   Castro, Spencer C.
+   Padilla, Lace
+TI Examining Limits of Small Multiples: Frame Quantity Impacts Judgments
+   With Line Graphs
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1875
+EP 1887
+DI 10.1109/TVCG.2024.3372620
+DT Article
+PD MAR 2025
+PY 2025
+AB Small multiples are a popular visualization method, displaying different
+   views of a dataset using multiple frames, often with the same scale and
+   axes. However, there is a need to address their potential constraints,
+   especially in the context of human cognitive capacity limits. These
+   limits dictate the maximum information our mind can process at once. We
+   explore the issue of capacity limitation by testing competing theories
+   that describe how the number of frames shown in a display, the scale of
+   the frames, and time constraints impact user performance with small
+   multiples of line charts in an energy grid scenario. In two online
+   studies (Experiment 1 n = 141 and Experiment 2 n = 360) and a follow-up
+   eye-tracking analysis (n = 5), we found a linear decline in accuracy
+   with increasing frames across seven tasks, which was not fully explained
+   by differences in frame size, suggesting visual search challenges.
+   Moreover, the studies demonstrate that highlighting specific frames can
+   mitigate some visual search difficulties but, surprisingly, not
+   eliminate them. This research offers insights into optimizing the
+   utility of small multiples by aligning them with human limitations.
+Z8 0
+ZS 0
+TC 0
+ZB 0
+ZR 0
+ZA 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200018
+PM 38437093
+ER
+
+PT J
+AU Hedayati, Maryam
+   Kay, Matthew
+TI What University Students Learn In Visualization Classes
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 1072
+EP 1082
+DI 10.1109/TVCG.2024.3456291
+DT Article
+PD JAN 2025
+PY 2025
+AB As a step towards improving visualization literacy, this work
+   investigates how students approach reading visualizations differently
+   after taking a university-level visualization course. We asked students
+   to verbally walk through their process of making sense of unfamiliar
+   visualizations, and conducted a qualitative analysis of these
+   walkthroughs. Our qualitative analysis found that after taking a
+   visualization course, students engaged with visualizations in more
+   sophisticated ways: they were more likely to exhibit design empathy by
+   thinking critically about the tradeoffs behind why a chart was designed
+   in a particular way, and were better able to deconstruct a chart to make
+   sense of it. We also gave students a quantitative assessment of
+   visualization literacy and found no evidence of scores improving after
+   the class, likely because the test we used focused on a different set of
+   skills than those emphasized in visualization classes. While current
+   measurement instruments for visualization literacy are useful, we
+   propose developing standardized assessments for additional aspects of
+   visualization literacy, such as deconstruction and design empathy. We
+   also suggest that these additional aspects could be incorporated more
+   explicitly in visualization courses. All supplemental materials are
+   available at https://osf.io/w5pum/.
+ZB 0
+Z8 0
+ZA 0
+ZS 0
+TC 1
+ZR 0
+Z9 1
+DA 2024-12-07
+UT WOS:001367808800006
+PM 39259632
+ER
+
+PT J
+AU Koonchanok, Ratanond
+   Papka, Michael E.
+   Reda, Khairi
+TI Trust Your Gut: Comparing Human and Machine Inference from Noisy
+   Visualizations
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 754
+EP 764
+DI 10.1109/TVCG.2024.3456182
+DT Article
+PD JAN 2025
+PY 2025
+AB People commonly utilize visualizations not only to examine a given
+   dataset, but also to draw generalizable conclusions about the underlying
+   models or phenomena. Prior research has compared human visual inference
+   to that of an optimal Bayesian agent, with deviations from rational
+   analysis viewed as problematic. However, human reliance on non-normative
+   heuristics may prove advantageous in certain circumstances. We
+   investigate scenarios where human intuition might surpass idealized
+   statistical rationality. In two experiments, we examine individuals'
+   accuracy in characterizing the parameters of known data-generating
+   models from bivariate visualizations. Our findings indicate that,
+   although participants generally exhibited lower accuracy compared to
+   statistical models, they frequently outperformed Bayesian agents,
+   particularly when faced with extreme samples. Participants appeared to
+   rely on their internal models to filter out noisy visualizations, thus
+   improving their resilience against spurious data. However, participants
+   displayed overconfidence and struggled with uncertainty estimation. They
+   also exhibited higher variance than statistical machines. Our findings
+   suggest that analyst gut reactions to visualizations may provide an
+   advantage, even when departing from rationality. These results carry
+   implications for designing visual analytics tools, offering new
+   perspectives on how to integrate statistical models and analyst
+   intuition for improved inference and decision-making. The data and
+   materials for this paper are available at https://osf.io/qmfv6
+Z8 0
+ZS 0
+TC 0
+ZR 0
+ZA 0
+ZB 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800002
+PM 39259631
+ER
+
+PT J
+AU Heinemann, Moritz
+   Potyka, Johanna
+   Schulte, Kathrin
+   Sadlo, Filip
+   Ertl, Thomas
+TI Visualization of Finite-Time Separation in Multiphase Flow
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1918
+EP 1931
+DI 10.1109/TVCG.2024.3493607
+DT Article
+PD MAR 2025
+PY 2025
+AB This article presents a particle-based visualization approach for
+   finite-time analysis of the connectivity of fluid portions in multiphase
+   flow, i.e., the evolution of the droplets in volume of fluid
+   simulations. We address the Lagrangian inconsistency between the
+   interpolated flow field and the interpolated volume of fluid field by a
+   correction approach, and complement that with an uncertainty measure
+   that provides an estimate of the involved inconsistency. We demonstrate
+   the utility and versatility of our approach using different multiphase
+   flow simulations, exemplify its application in physics-based assessment
+   of droplet formation processes, and discuss its limitations and
+   benefits.
+Z8 0
+ZB 0
+TC 0
+ZS 0
+ZR 0
+ZA 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200010
+ER
+
+PT J
+AU Moreira, Gustavo
+   Hosseini, Maryam
+   Veiga, Carolina
+   Alexandre, Lucas
+   Colaninno, Nicola
+   de Oliveira, Daniel
+   Ferreira, Nivan
+   Lage, Marcos
+   Miranda, Fabio
+TI Curio: A Dataflow-Based Framework for Collaborative Urban Visual
+   Analytics
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 1224
+EP 1234
+DI 10.1109/TVCG.2024.3456353
+DT Article
+PD JAN 2025
+PY 2025
+AB Over the past decade, several urban visual analytics systems and tools
+   have been proposed to tackle a host of challenges faced by cities, in
+   areas as diverse as transportation, weather, and real estate. Many of
+   these tools have been designed through collaborations with urban
+   experts, aiming to distill intricate urban analysis workflows into
+   interactive visualizations and interfaces. However, the design,
+   implementation, and practical use of these tools still rely on siloed
+   approaches, resulting in bespoke systems that are difficult to reproduce
+   and extend. At the design level, these tools undervalue rich data
+   workflows from urban experts, typically treating them only as data
+   providers and evaluators. At the implementation level, they lack
+   interoperability with other technical frameworks. At the practical use
+   level, they tend to be narrowly focused on specific fields,
+   inadvertently creating barriers to cross-domain collaboration. To
+   address these gaps, we present Curio, a framework for collaborative
+   urban visual analytics. Curio uses a dataflow model with multiple
+   abstraction levels (code, grammar, GUI elements) to facilitate
+   collaboration across the design and implementation of visual analytics
+   components. The framework allows experts to intertwine data
+   preprocessing, management, and visualization stages while tracking the
+   provenance of code and visualizations. In collaboration with urban
+   experts, we evaluate Curio through a diverse set of usage scenarios
+   targeting urban accessibility, urban microclimate, and sunlight access.
+   These scenarios use different types of data and domain methodologies to
+   illustrate Curio's flexibility in tackling pressing societal challenges.
+   Curio is available at urbantk.org/curio.
+Z8 0
+ZR 0
+TC 0
+ZS 0
+ZB 0
+ZA 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800009
+PM 39255103
+ER
+
+PT J
+AU Bradley, Duncan
+   Strain, Gabriel
+   Jay, Caroline
+   Stewart, Andrew J.
+TI Magnitude Judgements are Influenced by the Relative Positions of Data
+   Points Within Axis Limits
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1414
+EP 1421
+DI 10.1109/TVCG.2024.3364069
+DT Article
+PD FEB 2025
+PY 2025
+AB When visualising data, chart designers have the freedom to choose the
+   upper and lower limits of numerical axes. Axis limits can determine the
+   physical characteristics of plotted values, such as the physical
+   position of data points in dot plots. In two experiments (total N=300),
+   we demonstrate that axis limits affect viewers' interpretations of the
+   magnitudes of plotted values. Participants did not simply associate
+   values presented at higher vertical positions with greater magnitudes.
+   Instead, participants considered the relative positions of data points
+   within the axis limits. Data points were considered to represent larger
+   values when they were closer to the end of the axis associated with
+   greater values, even when they were presented at the bottom of a chart.
+   This provides further evidence of framing effects in the display of
+   data, and offers insight into the cognitive mechanisms involved in
+   assessing magnitude in data visualisations.
+TC 0
+ZS 0
+Z8 0
+ZB 0
+ZR 0
+ZA 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200021
+PM 38329854
+ER
+
+PT J
+AU Miyauchi, Shoko
+   Morooka, Ken'ichi
+   Kurazume, Ryo
+TI Isomorphic Mesh Generation From Point Clouds With Multilayer Perceptrons
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1647
+EP 1663
+DI 10.1109/TVCG.2024.3367855
+DT Article
+PD MAR 2025
+PY 2025
+AB A novel neural network called the isomorphic mesh generator (iMG) is
+   proposed to generate isomorphic meshes from point clouds containing
+   noise and missing parts. Isomorphic meshes of arbitrary objects exhibit
+   a unified mesh structure, despite objects belonging to different
+   classes. This unified representation enables various modern deep neural
+   networks (DNNs) to easily handle surface models without requiring
+   additional pre-processing. Additionally, the unified mesh structure of
+   isomorphic meshes enables the application of the same process to all
+   isomorphic meshes, unlike general mesh models, where processes need to
+   be tailored depending on their mesh structures. Therefore, the use of
+   isomorphic meshes can ensure efficient memory usage and reduce
+   calculation time. Apart from the point cloud of the target object used
+   as input for the iMG, point clouds and mesh models need not be prepared
+   in advance as training data because the iMG is a data-free method.
+   Furthermore, the iMG outputs an isomorphic mesh obtained by mapping a
+   reference mesh to a given input point cloud. To stably estimate the
+   mapping function, a step-by-step mapping strategy is introduced. This
+   strategy enables flexible deformation while simultaneously maintaining
+   the structure of the reference mesh. Simulations and experiments
+   conducted using a mobile phone have confirmed that the iMG reliably
+   generates isomorphic meshes of given objects, even when the input point
+   cloud includes noise and missing parts.
+TC 0
+ZR 0
+ZB 0
+ZS 0
+ZA 0
+Z8 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200015
+PM 38376959
+ER
+
+PT J
+AU Krake, Tim
+   Kloetzl, Daniel
+   Haegele, David
+   Weiskopf, Daniel
+TI Uncertainty-Aware Seasonal-Trend Decomposition Based on Loess
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1496
+EP 1512
+DI 10.1109/TVCG.2024.3364388
+DT Article
+PD FEB 2025
+PY 2025
+AB Seasonal-trend decomposition based on loess (STL) is a powerful tool to
+   explore time series data visually. In this article, we present an
+   extension of STL to uncertain data, named uncertainty-aware STL (UASTL).
+   Our method propagates multivariate Gaussian distributions mathematically
+   exactly through the entire analysis and visualization pipeline. Thereby,
+   stochastic quantities shared between the components of the decomposition
+   are preserved. Moreover, we present application scenarios with
+   uncertainty modeling based on Gaussian processes, e.g., data with
+   uncertain areas or missing values. Besides these mathematical results
+   and modeling aspects, we introduce visualization techniques that address
+   the challenges of uncertainty visualization and the problem of
+   visualizing highly correlated components of a decomposition. The global
+   uncertainty propagation enables the time series visualization with
+   STL-consistent samples, the exploration of correlation between and
+   within decomposition's components, and the analysis of the impact of
+   varying uncertainty. Finally, we show the usefulness of UASTL and the
+   importance of uncertainty visualization with several examples. Thereby,
+   a comparison with conventional STL is performed.
+ZA 0
+ZS 0
+ZB 0
+TC 2
+ZR 0
+Z8 0
+Z9 2
+DA 2025-01-19
+UT WOS:001392823200005
+PM 38349829
+ER
+
+PT J
+AU Liu, Tong
+   Xiao, Yi
+   Hu, Mingwei
+   Sha, Hao
+   Ma, Shining
+   Gao, Boyu
+   Guo, Shihui
+   Liu, Yue
+   Song, Weitao
+TI AudioGest: Gesture-Based Interaction for Virtual Reality Using Audio
+   Devices
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1569
+EP 1581
+DI 10.1109/TVCG.2024.3397868
+DT Article
+PD FEB 2025
+PY 2025
+AB Current virtual reality (VR) system takes gesture interaction based on
+   camera, handle and touch screen as one of the mainstream interaction
+   methods, which can provide accurate gesture input for it. However,
+   limited by application forms and the volume of devices, these methods
+   cannot extend the interaction area to such surfaces as walls and tables.
+   To address the above challenge, we propose AudioGest, a portable,
+   plug-and-play system that detects the audio signal generated by finger
+   tapping and sliding on the surface through a set of microphone devices
+   without extensive calibration. First, an audio synthesis-recognition
+   pipeline based on micro-contact dynamics simulation is constructed to
+   generate modal audio synthesis from different materials and physical
+   properties. Then the accuracy and effectiveness of the synthetic audio
+   are verified by mixing the synthetic audio with real audio
+   proportionally as the training sets. Finally, a series of desktop office
+   applications are developed to demonstrate the application potential of
+   AudioGest's scalability and versatility in VR scenarios.
+ZS 0
+ZR 0
+ZB 0
+TC 0
+Z8 0
+ZA 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200001
+PM 38713570
+ER
+
+PT J
+AU Zheng, Chenxi
+   Liu, Bangzhen
+   Xu, Xuemiao
+   Zhang, Huaidong
+   He, Shengfeng
+TI Learning an Interpretable Stylized Subspace for 3D-Aware Animatable
+   Artforms
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1465
+EP 1477
+DI 10.1109/TVCG.2024.3364162
+DT Article
+PD FEB 2025
+PY 2025
+AB Throughout history, static paintings have captivated viewers within
+   display frames, yet the possibility of making these masterpieces vividly
+   interactive remains intriguing. This research paper introduces
+   3DArtmator, a novel approach that aims to represent artforms in a highly
+   interpretable stylized space, enabling 3D-aware animatable
+   reconstruction and editing. Our rationale is to transfer the
+   interpretability and 3D controllability of the latent space in a
+   3D-aware GAN to a stylized sub-space of a customized GAN, revitalizing
+   the original artforms. To this end, the proposed two-stage optimization
+   framework of 3DArtmator begins with discovering an anchor in the
+   original latent space that accurately mimics the pose and content of a
+   given art painting. This anchor serves as a reliable indicator of the
+   original latent space local structure, therefore sharing the same
+   editable predefined expression vectors. In the second stage, we train a
+   customized 3D-aware GAN specific to the input artform, while enforcing
+   the preservation of the original latent local structure through a
+   meticulous style-directional difference loss. This approach ensures the
+   creation of a stylized sub-space that remains interpretable and retains
+   3D control. The effectiveness and versatility of 3DArtmator are
+   validated through extensive experiments across a diverse range of art
+   styles. With the ability to generate 3D reconstruction and editing for
+   artforms while maintaining interpretability, 3DArtmator opens up new
+   possibilities for artistic exploration and engagement.
+ZR 0
+ZA 0
+Z8 0
+TC 0
+ZB 0
+ZS 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200019
+PM 38335081
+ER
+
+PT J
+AU Chai, Zhi
+   Qin, Hong
+TI Dynamic Motion Transition: A Hybrid Data-Driven and Model-Driven Method
+   for Human Pose Transitions
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1848
+EP 1861
+DI 10.1109/TVCG.2024.3372421
+DT Article
+PD MAR 2025
+PY 2025
+AB The rapid, accurate, and robust computation of virtual human figures'
+   "in-between" pose transitions from available and sometimes sparse inputs
+   is of fundamental significance to 3D interactive graphics and computer
+   animation. Various methods have been proposed to produce natural
+   lifelike transitions of human pose automatically in recent decades.
+   Nevertheless, conventional pure model-driven methods require heuristic
+   knowledge (e.g., least motion guided by physics laws) and ad-hoc clues
+   (e.g., splines with non-uniform time warp) that are difficult to obtain,
+   learn, and infer. With the fast emergence of large-scale datasets
+   readily available to animators in the most recent years, deep models
+   afford a powerful alternative to tackle the aforementioned challenges.
+   However, pure data-driven methods still suffer from the remaining
+   challenges such as unseen data in practice and less generative power in
+   model/domain/data transfer, and the measurement of the generative power
+   has always been omitted in these works. In essence, data-driven methods
+   solely rely on the qualities and quantities of training datasets. In
+   this paper, we propose a hybrid approach built upon the seamless
+   integration of data-driven and model-driven methods, called Dynamic
+   Motion Transition (DMT), with the following salient modeling advantages:
+   (1) The data augmentation capability based on the limited human
+   locomotion data capture and the concept of force-derived directly from
+   physical laws; (2) Force learning by which skeleton joints are driven to
+   move, and the Conditional Temporal Transformer (CTT) being trained to
+   learn the force change in the local range, both at the fine level; and
+   (3) At the coarse level, the effective and flexible creation of the
+   subsequent step motion using Dynamic Movement Primitives (DMP) until the
+   target is reached. Our extensive experiments have confirmed that our
+   model can outperform the state-of-the-art methods under the newly
+   devised metric by virtue of the least action loss function. In addition,
+   our novel method and system are of immediate benefit to many other
+   animation tasks such as motion synthesis and control, and motion
+   tracking and prediction in this bigdata graphics era.
+TC 0
+ZS 0
+ZB 0
+Z8 0
+ZR 0
+ZA 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200017
+PM 38427540
+ER
+
+PT J
+AU Oddo, Matt I. B.
+   Kobourov, Stephen
+   Munzner, Tamara
+TI The Census-Stub Graph Invariant Descriptor
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1945
+EP 1961
+DI 10.1109/TVCG.2024.3513275
+DT Article
+PD MAR 2025
+PY 2025
+AB An 'invariant descriptor' captures meaningful structural features of
+   networks, useful where traditional visualizations, like node-link views,
+   face challenges like the 'hairball phenomenon' (inscrutable overlap of
+   points and lines). Designing invariant descriptors involves balancing
+   abstraction and information retention, as richer data summaries demand
+   more storage and computational resources. Building on prior work,
+   chiefly the BMatrix-a matrix descriptor visualized as the invariant
+   'network portrait' heatmap-we introduce BFS-Census, a new algorithm
+   computing our Census data structures: Census-Node, Census-Edge, and
+   Census-Stub. Our experiments show Census-Stub, which focuses on 'stubs'
+   (half-edges), has orders of magnitude greater discerning power (ability
+   to tell non-isomorphic graphs apart) than any other descriptor in this
+   study, without a difficult trade-off: the substantial increase in
+   resolution doesn't come at a commensurate cost in storage space or
+   computation power. We also present new visualizations-our Hop-Census
+   polylines and Census-Census trajectories-and evaluate them using
+   real-world graphs, including a sensitivity analysis that shows graph
+   topology change maps to visual Census change.
+ZS 0
+Z8 0
+ZR 0
+ZA 0
+ZB 0
+TC 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200019
+ER
+
+PT J
+AU Tian, Yuan
+   Cui, Weiwei
+   Deng, Dazhen
+   Yi, Xinjing
+   Yang, Yurun
+   Zhang, Haidong
+   Wu, Yingcai
+TI ChartGPT: Leveraging LLMs to Generate Charts From Abstract Natural
+   Language
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1731
+EP 1745
+DI 10.1109/TVCG.2024.3368621
+DT Article
+PD MAR 2025
+PY 2025
+AB The use of natural language interfaces (NLIs) to create charts is
+   becoming increasingly popular due to the intuitiveness of natural
+   language interactions. One key challenge in this approach is to
+   accurately capture user intents and transform them to proper chart
+   specifications. This obstructs the wide use of NLI in chart generation,
+   as users' natural language inputs are generally abstract (i.e.,
+   ambiguous or under-specified), without a clear specification of visual
+   encodings. Recently, pre-trained large language models (LLMs) have
+   exhibited superior performance in understanding and generating natural
+   language, demonstrating great potential for downstream tasks. Inspired
+   by this major trend, we propose ChartGPT, generating charts from
+   abstract natural language inputs. However, LLMs are struggling to
+   address complex logic problems. To enable the model to accurately
+   specify the complex parameters and perform operations in chart
+   generation, we decompose the generation process into a step-by-step
+   reasoning pipeline, so that the model only needs to reason a single and
+   specific sub-task during each run. Moreover, LLMs are pre-trained on
+   general datasets, which might be biased for the task of chart
+   generation. To provide adequate visualization knowledge, we create a
+   dataset consisting of abstract utterances and charts and improve model
+   performance through fine-tuning. We further design an interactive
+   interface for ChartGPT that allows users to check and modify the
+   intermediate outputs of each step. The effectiveness of the proposed
+   system is evaluated through quantitative evaluations and a user study.
+Z8 0
+ZS 0
+ZA 0
+ZB 0
+TC 4
+ZR 0
+Z9 4
+DA 2025-02-09
+UT WOS:001413499200002
+PM 38386583
+ER
+
+PT J
+AU Cen, Ruihong
+   Ren, Bo
+TI Layer-Based Simulation for Three-Dimensional Fluid Flow in Spherical
+   Coordinates
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1435
+EP 1447
+DI 10.1109/TVCG.2024.3360521
+DT Article
+PD FEB 2025
+PY 2025
+AB Fluid flows in spherical coordinates have raised the interest of the
+   graphics community in recent years. The majority of existing works focus
+   on 2D manifold flows on a spherical shell, and there are still many
+   unresolved problems for 3D simulations in spherical coordinates, such as
+   boundary conditions for arbitrary obstacles and flexible artistic
+   controls. In this article, we propose a practical spherical-coordinate
+   simulator for flow motions in 3D domains. Based on a layer-by-layer
+   structure and a boundary-aware pressure solving scheme, we are able to
+   recover horizontal and vertical flow motions in the presence of
+   arbitrary terrain shapes within a spherical shell of finite thickness.
+   Our proposed method straightforwardly builds on the conventions of
+   previous 2D-manifold spherical-coordinate simulations and provides
+   flexible artistic control strategies for art design.
+ZR 0
+ZS 0
+ZA 0
+TC 0
+Z8 0
+ZB 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200002
+PM 38329855
+ER
+
+PT J
+AU Moerth, Eric
+   Sidak, Kevin
+   Maliga, Zoltan
+   Moeller, Torsten
+   Gehlenborg, Nils
+   Sorger, Peter
+   Pfister, Hanspeter
+   Beyer, Johanna
+   Krueger, Robert
+TI Cell2Cell: Explorative Cell Interaction Analysis in Multi-Volumetric
+   Tissue Data
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 569
+EP 579
+DI 10.1109/TVCG.2024.3456406
+DT Article
+PD JAN 2025
+PY 2025
+AB We present Cell2Cell, a novel visual analytics approach for quantifying
+   and visualizing networks of cell-cell interactions in three-dimensional
+   (3D) multi-channel cancerous tissue data. By analyzing cellular
+   interactions, biomedical experts can gain a more accurate understanding
+   of the intricate relationships between cancer and immune cells. Recent
+   methods have focused on inferring interaction based on the proximity of
+   cells in low-resolution 2D multi-channel imaging data. By contrast, we
+   analyze cell interactions by quantifying the presence and levels of
+   specific proteins within a tissue sample (protein expressions) extracted
+   from high-resolution 3D multi-channel volume data. Such analyses have a
+   strong exploratory nature and require a tight integration of domain
+   experts in the analysis loop to leverage their deep knowledge. We
+   propose two complementary semi-automated approaches to cope with the
+   increasing size and complexity of the data interactively: On the one
+   hand, we interpret cell-to-cell interactions as edges in a cell graph
+   and analyze the image signal (protein expressions) along those edges,
+   using spatial as well as abstract visualizations. Complementary, we
+   propose a cell-centered approach, enabling scientists to visually
+   analyze polarized distributions of proteins in three dimensions, which
+   also captures neighboring cells with biochemical and cell biological
+   consequences. We evaluate our application in three case studies, where
+   biologists and medical experts use Cell2Cell to investigate tumor
+   micro-environments to identify and quantify T-cell activation in human
+   tissue data. We confirmed that our tool can fully solve the use cases
+   and enables a streamlined and detailed analysis of cell-cell
+   interactions.
+Z8 0
+ZA 0
+TC 0
+ZB 0
+ZR 0
+ZS 0
+Z9 0
+DA 2024-12-11
+UT WOS:001370107500002
+PM 39255170
+ER
+
+PT J
+AU Montambault, Brian
+   Appleby, Gabriel
+   Rogers, Jen
+   Brumar, Camelia D.
+   Li, Mingwei
+   Chang, Remco
+TI DimBridge: Interactive Explanation of Visual Patterns in Dimensionality
+   Reductions with Predicate Logic
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 207
+EP 217
+DI 10.1109/TVCG.2024.3456391
+DT Article
+PD JAN 2025
+PY 2025
+AB Dimensionality reduction techniques are widely used for visualizing
+   high-dimensional data. However, support for interpreting patterns of
+   dimension reduction results in the context of the original data space is
+   often insufficient. Consequently, users may struggle to extract insights
+   from the projections. In this paper, we introduce DimBridge, a visual
+   analytics tool that allows users to interact with visual patterns in a
+   projection and retrieve corresponding data patterns. DimBridge supports
+   several interactions, allowing users to perform various analyses, from
+   contrasting multiple clusters to explaining complex latent structures.
+   Leveraging first-order predicate logic, DimBridge identifies subspaces
+   in the original dimensions relevant to a queried pattern and provides an
+   interface for users to visualize and interact with them. We demonstrate
+   how DimBridge can help users overcome the challenges associated with
+   interpreting visual patterns in projections.
+TC 0
+Z8 0
+ZA 0
+ZS 0
+ZB 0
+ZR 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800003
+PM 39312423
+ER
+
+PT J
+AU Zhou, Zhiguang
+   Ye, Li
+   Cai, Lihong
+   Wang, Lei
+   Wang, Yigang
+   Wang, Yongheng
+   Chen, Wei
+   Wang, Yong
+TI <i>ConceptThread</i>: Visualizing Threaded Concepts in MOOC Videos
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1354
+EP 1370
+DI 10.1109/TVCG.2024.3361001
+DT Article
+PD FEB 2025
+PY 2025
+AB Massive Open Online Courses (MOOCs) platforms are becoming increasingly
+   popular in recent years. Online learners need to watch the whole course
+   video on MOOC platforms to learn the underlying new knowledge, which is
+   often tedious and time-consuming due to the lack of a quick overview of
+   the covered knowledge and their structures. In this article, we propose
+   ConceptThread, a visual analytics approach to effectively show the
+   concepts and the relations among them to facilitate effective online
+   learning. Specifically, given that the majority of MOOC videos contain
+   slides, we first leverage video processing and speech analysis
+   techniques, including shot recognition, speech recognition and topic
+   modeling, to extract core knowledge concepts and construct the
+   hierarchical and temporal relations among them. Then, by using a
+   metaphor of thread, we present a novel visualization to intuitively
+   display the concepts based on video sequential flow, and enable learners
+   to perform interactive visual exploration of concepts. We conducted a
+   quantitative study, two case studies, and a user study to extensively
+   evaluate ConceptThread. The results demonstrate the effectiveness and
+   usability of ConceptThread in providing online learners with a quick
+   understanding of the knowledge content of MOOC videos.
+ZR 0
+ZA 0
+Z8 0
+TC 2
+ZS 0
+ZB 0
+Z9 2
+DA 2025-01-19
+UT WOS:001392823200003
+PM 38300781
+ER
+
+PT J
+AU Kappel, Moritz
+   Golyanik, Vladislav
+   Castillo, Susana
+   Theobalt, Christian
+   Magnor, Marcus
+TI Fast Non-Rigid Radiance Fields From Monocularized Data
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1557
+EP 1568
+DI 10.1109/TVCG.2024.3367431
+DT Article
+PD FEB 2025
+PY 2025
+AB The reconstruction and novel view synthesis of dynamic scenes recently
+   gained increased attention. As reconstruction from large-scale
+   multi-view data involves immense memory and computational requirements,
+   recent benchmark datasets provide collections of single monocular views
+   per timestamp sampled from multiple (virtual) cameras. We refer to this
+   form of inputs as monocularized data. Existing work shows impressive
+   results for synthetic setups and forward-facing real-world data, but is
+   often limited in the training speed and angular range for generating
+   novel views. This paper addresses these limitations and proposes a new
+   method for full 360 degrees inward-facing novel view synthesis of
+   non-rigidly deforming scenes. At the core of our method are: 1) An
+   efficient deformation module that decouples the processing of spatial
+   and temporal information for accelerated training and inference; and 2)
+   A static module representing the canonical scene as a fast hash-encoded
+   neural radiance field. In addition to existing synthetic monocularized
+   data, we systematically analyze the performance on real-world
+   inward-facing scenes using a newly recorded challenging dataset sampled
+   from a synchronized large-scale multi-view rig. In both cases, our
+   method is significantly faster than previous methods, converging in less
+   than 7 minutes and achieving real-time framerates at 1 K resolution,
+   while obtaining a higher visual accuracy for generated novel views.
+ZS 0
+TC 0
+Z8 0
+ZR 0
+ZA 0
+ZB 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200006
+PM 38376960
+ER
+
+PT J
+AU Li, Jituo
+   Liu, Xinqi
+   Lu, Guodong
+TI Learning Pose Controllable Human Reconstruction With Dynamic Implicit
+   Fields From a Single Image
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1389
+EP 1401
+DI 10.1109/TVCG.2024.3363493
+DT Article
+PD FEB 2025
+PY 2025
+AB Recovering a user-special and controllable human model from a single RGB
+   image is a nontrivial challenge. Existing methods usually generate
+   static results with an image consistent subject's pose. Our work aspires
+   to achieve pose-controllable human reconstruction from a single image by
+   learning a dynamic (multi-pose) implicit field. We first construct a
+   feature-embedded human model (FEHM) as a bridge to propagate image
+   features to different pose spaces. Based on FEHM, we then encode three
+   pose-decoupled features. Global image features represent user-specific
+   shapes in images and replace widely used pixel-aligned ways to avoid
+   unwanted shape-pose entanglement. Spatial color features propagate
+   FEHM-embedded image cues into 3D pose space to provide spatial
+   high-frequency guidance. Spatial geometry features improve
+   reconstruction robustness by using the surface shape of the FEHM as the
+   prior. Finally, new implicit functions are designed to predict the
+   dynamic human implicit fields. For effective supervision, a realistic
+   human avatar dataset, SimuSCAN, with 1000+ models is constructed using a
+   low-cost hierarchical mesh registration method. Extensive experiments
+   demonstrate that our method achieves the state-of-the-art reconstruction
+   level.
+ZR 0
+ZS 0
+TC 0
+ZB 0
+ZA 0
+Z8 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200017
+PM 38324440
+ER
+
+PT J
+AU Kumar, Atul
+   Garg, Siddharth
+   Dutta, Soumya
+TI Uncertainty-Aware Deep Neural Representations for Visual Analysis of
+   Vector Field Data
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 1343
+EP 1353
+DI 10.1109/TVCG.2024.3456360
+DT Article
+PD JAN 2025
+PY 2025
+AB The widespread use of Deep Neural Networks (DNNs) has recently resulted
+   in their application to challenging scientific visualization tasks.
+   While advanced DNNs demonstrate impressive generalization abilities,
+   understanding factors like prediction quality, confidence, robustness,
+   and uncertainty is crucial. These insights aid application scientists in
+   making informed decisions. However, DNNs lack inherent mechanisms to
+   measure prediction uncertainty, prompting the creation of distinct
+   frameworks for constructing robust uncertainty-aware models tailored to
+   various visualization tasks. In this work, we develop uncertainty-aware
+   implicit neural representations to model steady-state vector fields
+   effectively. We comprehensively evaluate the efficacy of two principled
+   deep uncertainty estimation techniques: (1) Deep Ensemble and (2) Monte
+   Carlo Dropout, aimed at enabling uncertainty-informed visual analysis of
+   features within steady vector field data. Our detailed exploration using
+   several vector data sets indicate that uncertainty-aware models generate
+   informative visualization results of vector field features. Furthermore,
+   incorporating prediction uncertainty improves the resilience and
+   interpretability of our DNN model, rendering it applicable for the
+   analysis of non-trivial vector field data sets.
+ZA 0
+Z8 0
+ZR 0
+ZS 0
+TC 0
+ZB 0
+Z9 0
+DA 2024-12-03
+UT WOS:001363163600001
+PM 39250384
+ER
+
+PT J
+AU Li, Mingzhe
+   Carr, Hamish
+   Rubel, Oliver
+   Wang, Bei
+   Weber, Gunther H.
+TI Distributed Augmentation, Hypersweeps, and Branch Decomposition of
+   Contour Trees for Scientific Exploration
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 152
+EP 162
+DI 10.1109/TVCG.2024.3456322
+DT Article
+PD JAN 2025
+PY 2025
+AB Contour trees describe the topology of level sets in scalar fields and
+   are widely used in topological data analysis and visualization. A main
+   challenge of utilizing contour trees for large-scale scientific data is
+   their computation at scale using high-performance computing. To address
+   this challenge, recent work has introduced distributed hierarchical
+   contour trees for distributed computation and storage of contour trees.
+   However, effective use of these distributed structures in analysis and
+   visualization requires subsequent computation of geometric properties
+   and branch decomposition to support contour extraction and exploration.
+   In this work, we introduce distributed algorithms for augmentation,
+   hypersweeps, and branch decomposition that enable parallel computation
+   of geometric properties, and support the use of distributed contour
+   trees as query structures for scientific exploration. We evaluate the
+   parallel performance of these algorithms and apply them to identify and
+   extract important contours for scientific visualization.
+ZA 0
+TC 0
+ZR 0
+ZS 0
+Z8 0
+ZB 0
+Z9 0
+DA 2024-12-11
+UT WOS:001370107500006
+PM 39255093
+ER
+
+PT J
+AU Monica, Riccardo
+   Rizzini, Dario Lodi
+   Aleotti, Jacopo
+TI Adaptive Complementary Filter for Hybrid Inside-Out Outside-In HMD
+   Tracking With Smooth Transitions
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1598
+EP 1612
+DI 10.1109/TVCG.2024.3464738
+DT Article
+PD FEB 2025
+PY 2025
+AB Head-mounted displays (HMDs) in room-scale virtual reality are usually
+   tracked using inside-out visual SLAM algorithms. Alternatively, to track
+   the motion of the HMD with respect to a fixed real-world reference
+   frame, an outside-in instrumentation like a motion capture system can be
+   adopted. However, outside-in tracking systems may temporarily lose
+   tracking as they suffer by occlusion and blind spots. A possible
+   solution is to adopt a hybrid approach where the inside-out tracker of
+   the HMD is augmented with an outside-in sensing system. On the other
+   hand, when the tracking signal of the outside-in system is recovered
+   after a loss of tracking the transition from inside-out tracking to
+   hybrid tracking may generate a discontinuity, i.e a sudden change of the
+   virtual viewpoint, that can be uncomfortable for the user. Therefore,
+   hybrid tracking solutions for HMDs require advanced sensor fusion
+   algorithms to obtain a smooth transition. This work proposes a method
+   for hybrid tracking of a HMD with smooth transitions based on an
+   adaptive complementary filter. The proposed approach can be configured
+   with several parameters that determine a trade-off between user
+   experience and tracking error. A user study was carried out in a
+   room-scale virtual reality environment, where users carried out two
+   different tasks while multiple signal tracking losses of the outside-in
+   sensor system occurred. The results show that the proposed approach
+   improves user experience compared to a standard Extended Kalman Filter,
+   and that tracking error is lower compared to a state-of-the-art
+   complementary filter when configured for the same quality of user
+   experience.
+ZS 0
+Z8 0
+ZA 0
+TC 0
+ZR 0
+ZB 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200009
+PM 39298310
+ER
+
+PT J
+AU Liu, Shengjun
+   Wang, Haibo
+   Yan, Dong-Ming
+   Li, Qinsong
+   Luo, Feifan
+   Teng, Zi
+   Liu, Xinru
+TI Spectral Descriptors for 3D Deformable Shape Matching: A Comparative
+   Survey
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1677
+EP 1697
+DI 10.1109/TVCG.2024.3368083
+DT Article
+PD MAR 2025
+PY 2025
+AB A large number of 3D spectral descriptors have been proposed in the
+   literature, which act as an essential component for 3D deformable shape
+   matching and related applications. An outstanding descriptor should have
+   desirable natures including high-level descriptive capacity, cheap
+   storage, and robustness to a set of nuisances. It is, however, unclear
+   which descriptors are more suitable for a particular application. This
+   paper fills the gap by comprehensively evaluating nine state-of-the-art
+   spectral descriptors on ten popular deformable shape datasets as well as
+   perturbations such as mesh discretization, geometric noise, scale
+   transformation, non-isometric setting, partiality, and topological
+   noise. Our evaluated terms for a spectral descriptor cover four major
+   concerns, i.e., distinctiveness, robustness, compactness, and
+   computational efficiency. In the end, we present a summary of the
+   overall performance and several interesting findings that can serve as
+   guidance for the following researchers to construct a new spectral
+   descriptor and choose an appropriate spectral feature in a particular
+   application.
+ZS 0
+Z8 0
+ZB 0
+TC 1
+ZR 0
+ZA 0
+Z9 1
+DA 2025-02-09
+UT WOS:001413499200005
+PM 38381625
+ER
+
+PT J
+AU Shu, Zhenyu
+   Yu, Junlong
+   Chao, Kai
+   Xin, Shiqing
+   Liu, Ligang
+TI A Multi-Modal Attention-Based Approach for Points of Interest Detection
+   on 3D Shapes
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1698
+EP 1712
+DI 10.1109/TVCG.2024.3368767
+DT Article
+PD MAR 2025
+PY 2025
+AB Identifying points of interest (POIs) on the surface of 3D shapes is a
+   significant challenge in geometric processing research. The complex
+   connection between POIs and their geometric descriptors, combined with
+   the small percentage of POIs on the shape, makes detecting POIs on any
+   given 3D shape a highly challenging task. Existing methods directly
+   detect POIs from the entire 3D shape, resulting in low efficiency and
+   accuracy. Therefore, we propose a novel multi-modal POI detection method
+   using a coarse-to-fine approach, with the key idea of reducing data
+   complexity and enabling more efficient and accurate subsequent POI
+   detection by first identifying and processing important regions on the
+   3D shape. It first obtains important areas on the 3D shape through 2D
+   projected images, then processes points within these regions using
+   attention mechanisms. Extensive experiments demonstrate that our method
+   outperforms existing POI detection techniques.
+ZA 0
+ZR 0
+TC 0
+ZS 0
+ZB 0
+Z8 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200012
+PM 38386586
+ER
+
+PT J
+AU Zhao, Yuheng
+   Zhang, Yixing
+   Zhang, Yu
+   Zhao, Xinyi
+   Wang, Junjie
+   Shao, Zekai
+   Turkay, Cagatay
+   Chen, Siming
+TI LEVA: Using Large Language Models to Enhance Visual Analytics
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1830
+EP 1847
+DI 10.1109/TVCG.2024.3368060
+DT Article
+PD MAR 2025
+PY 2025
+AB Visual analytics supports data analysis tasks within complex domain
+   problems. However, due to the richness of data types, visual designs,
+   and interaction designs, users need to recall and process a significant
+   amount of information when they visually analyze data. These challenges
+   emphasize the need for more intelligent visual analytics methods. Large
+   language models have demonstrated the ability to interpret various forms
+   of textual data, offering the potential to facilitate intelligent
+   support for visual analytics. We propose LEVA, a framework that uses
+   large language models to enhance users' VA workflows at multiple stages:
+   onboarding, exploration, and summarization. To support onboarding, we
+   use large language models to interpret visualization designs and view
+   relationships based on system specifications. For exploration, we use
+   large language models to recommend insights based on the analysis of
+   system status and data to facilitate mixed-initiative exploration. For
+   summarization, we present a selective reporting strategy to retrace
+   analysis history through a stream visualization and generate insight
+   reports with the help of large language models. We demonstrate how LEVA
+   can be integrated into existing visual analytics systems. Two usage
+   scenarios and a user study suggest that LEVA effectively aids users in
+   conducting visual analytics.
+ZS 0
+ZB 0
+ZR 0
+ZA 0
+Z8 0
+TC 2
+Z9 2
+DA 2025-02-09
+UT WOS:001413499200016
+PM 38437130
+ER
+
+PT J
+AU Chen, Xin
+   Wang, Yunhai
+   Bao, Huaiwei
+   Lu, Kecheng
+   Jo, Jaemin
+   Fu, Chi-Wing
+   Fekete, Jean-Daniel
+TI Visualization-Driven Illumination for Density Plots
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1631
+EP 1644
+DI 10.1109/TVCG.2024.3495695
+DT Article
+PD FEB 2025
+PY 2025
+AB We present a novel visualization-driven illumination model for density
+   plots, a new technique to enhance density plots by effectively revealing
+   the detailed structures in high- and medium-density regions and outliers
+   in low-density regions, while avoiding artifacts in the density field's
+   colors. When visualizing large and dense discrete point samples,
+   scatterplots and dot density maps often suffer from overplotting, and
+   density plots are commonly employed to provide aggregated views while
+   revealing underlying structures. Yet, in such density plots, existing
+   illumination models may produce color distortion and hide details in
+   low-density regions, making it challenging to look up density values,
+   compare them, and find outliers. The key novelty in this work includes
+   (i) a visualization-driven illumination model that inherently supports
+   density-plot-specific analysis tasks and (ii) a new image composition
+   technique to reduce the interference between the image shading and the
+   color-encoded density values. To demonstrate the effectiveness of our
+   technique, we conducted a quantitative study, an empirical evaluation of
+   our technique in a controlled study, and two case studies, exploring
+   twelve datasets with up to two million data point samples.
+ZA 0
+TC 0
+ZB 0
+Z8 0
+ZR 0
+ZS 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200018
+PM 39527427
+ER
+
+PT J
+AU Hattori, Shota
+   Yatagawa, Tatsuya
+   Ohtake, Yutaka
+   Suzuki, Hiromasa
+TI Learning Self-Prior for Mesh Inpainting Using Self-Supervised Graph
+   Convolutional Networks
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1448
+EP 1464
+DI 10.1109/TVCG.2024.3364365
+DT Article
+PD FEB 2025
+PY 2025
+AB In this article, we present a self-prior-based mesh inpainting framework
+   that requires only an incomplete mesh as input, without the need for any
+   training datasets. Additionally, our method maintains the polygonal mesh
+   format throughout the inpainting process without converting the shape
+   format to an intermediate one, such as a voxel grid, a point cloud, or
+   an implicit function, which are typically considered easier for deep
+   neural networks to process. To achieve this goal, we introduce two graph
+   convolutional networks (GCNs): single-resolution GCN (SGCN) and
+   multi-resolution GCN (MGCN), both trained in a self-supervised manner.
+   Our approach refines a watertight mesh obtained from the initial hole
+   filling to generate a complete output mesh. Specifically, we train the
+   GCNs to deform an oversmoothed version of the input mesh into the
+   expected complete shape. The deformation is described by vertex
+   displacements, and the GCNs are supervised to obtain accurate
+   displacements at vertices in real holes. To this end, we specify several
+   connected regions of the mesh as fake holes, thereby generating meshes
+   with various sets of fake holes. The correct displacements of vertices
+   are known in these fake holes, thus enabling training GCNs with loss
+   functions that assess the accuracy of vertex displacements. We
+   demonstrate that our method outperforms traditional dataset-independent
+   approaches and exhibits greater robustness compared with other
+   deep-learning-based methods for shapes that infrequently appear in shape
+   datasets.
+Z8 0
+TC 0
+ZR 0
+ZA 0
+ZB 0
+ZS 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200012
+PM 38335080
+ER
+
+PT J
+AU Han, Yi
+   Abowd, Gregory D.
+   Stasko, John
+TI IntiVisor: A Visual Analytics System for Interaction Log Analysis
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1772
+EP 1784
+DI 10.1109/TVCG.2024.3370637
+DT Article
+PD MAR 2025
+PY 2025
+AB Application developers frequently augment their code to produce event
+   logs of specific operations performed by their users. Subsequent
+   analysis of these event logs can help provide insight about the users'
+   behavior relative to its intended use. The analysis process typically
+   includes both event organization and pattern discovery activities.
+   However, most existing visual analytics systems for interaction log
+   analysis excel at supporting pattern discovery and overlook the
+   importance of flexible event organization. This omission limits the
+   practical application of these systems. Therefore, we developed a novel
+   visual analytics system called IntiVisor that implements the entire
+   end-to-end interaction analysis approach. An evaluation of the system
+   with interaction data from four visualization applications showed the
+   value and importance of supporting event organization in interaction log
+   analysis.
+ZR 0
+ZS 0
+Z8 0
+ZA 0
+ZB 0
+TC 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200013
+PM 38416614
+ER
+
+PT J
+AU Li, Sisi
+   Liu, Guanzhong
+   Wei, Tianxiang
+   Jia, Shichao
+   Zhang, Jiawan
+TI EvoVis: A Visual Analytics Method to Understand the Labeling Iterations
+   in Data Programming
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1802
+EP 1817
+DI 10.1109/TVCG.2024.3370654
+DT Article
+PD MAR 2025
+PY 2025
+AB Obtaining high-quality labeled training data poses a significant
+   bottleneck in the domain of machine learning. Data programming has
+   emerged as a new paradigm to address this issue by converting human
+   knowledge into labeling functions (LFs) to quickly produce low-cost
+   probabilistic labels. To ensure the quality of labeled data, data
+   programmers commonly iterate LFs for many rounds until satisfactory
+   performance is achieved. However, the challenge in understanding the
+   labeling iterations stems from interpreting the intricate relationships
+   between data programming elements, exacerbated by their many-to-many and
+   directed characteristics, inconsistent formats, and the large scale of
+   data typically involved in labeling tasks. These complexities may impede
+   the evaluation of label quality, identification of areas for
+   improvement, and the effective optimization of LFs for acquiring
+   high-quality labeled data. In this article, we introduce EvoVis, a
+   visual analytics method for multi-class text labeling tasks. It
+   seamlessly integrates relationship analysis and temporal overview to
+   display contextual and historical information on a single screen, aiding
+   in explaining the labeling iterations in data programming. We assessed
+   its utility and effectiveness through case studies and user studies. The
+   results indicate that EvoVis can effectively assist data programmers in
+   understanding labeling iterations and improving the quality of labeled
+   data, as evidenced by an increase of 0.16 in the average F1 score when
+   compared to the default analysis tool.
+Z8 0
+ZB 0
+ZR 0
+ZS 0
+ZA 0
+TC 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200003
+PM 38416617
+ER
+
+PT J
+AU Zhou, Yuemei
+   Yu, Tao
+   Zheng, Zerong
+   Wu, Gaochang
+   Zhao, Guihua
+   Jiang, Wenbo
+   Fu, Ying
+   Liu, Yebin
+TI ProbIBR: Fast Image-Based Rendering With Learned Probability-Guided
+   Sampling
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1888
+EP 1901
+DI 10.1109/TVCG.2024.3372152
+DT Article
+PD MAR 2025
+PY 2025
+AB We present a general, fast, and practical solution for interpolating
+   novel views of diverse real-world scenes given a sparse set of nearby
+   views. Existing generic novel view synthesis methods rely on
+   time-consuming scene geometry pre-computation or redundant sampling of
+   the entire space for neural volumetric rendering, limiting the overall
+   efficiency. Instead, we incorporate learned MVS priors into the neural
+   volume rendering pipeline while improving the rendering efficiency by
+   reducing sampling points under the guidance of depth probability
+   distributions. Specifically, fewer but important points are sampled
+   under the guidance of depth probability distributions extracted from the
+   learned MVS architecture. Based on the learned probability-guided
+   sampling, we develop a sophisticated neural volume rendering module that
+   effectively integrates source view information with the learned scene
+   structures. We further propose confidence-aware refinement to improve
+   the rendering results in uncertain, occluded, and unreferenced regions.
+   Moreover, we build a four-view camera system for holographic display and
+   provide a real-time version of our framework for free-viewpoint
+   experience, where novel view images of a spatial resolution of 512x512
+   can be rendered at around 20 fps on a single GTX 3090 GPU. Experiments
+   show that our method achieves 15 to 40 times faster rendering compared
+   to state-of-the-art baselines, with strong generalization capacity and
+   comparable high-quality novel view synthesis performance.
+Z8 0
+ZB 0
+TC 0
+ZS 0
+ZA 0
+ZR 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200020
+PM 38457327
+ER
+
+PT J
+AU Wang, Arran Zeyu
+   Borland, David
+   Gotz, David
+TI Beyond Correlation: Incorporating Counterfactual Guidance to Better
+   Support Exploratory Visual Analysis
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 776
+EP 786
+DI 10.1109/TVCG.2024.3456369
+DT Article
+PD JAN 2025
+PY 2025
+AB Providing effective guidance for users has long been an important and
+   challenging task for efficient exploratory visual analytics, especially
+   when selecting variables for visualization in high-dimensional datasets.
+   Correlation is the most widely applied metric for guidance in
+   statistical and analytical tools, however a reliance on correlation may
+   lead users towards false positives when interpreting causal relations in
+   the data. In this work, inspired by prior insights on the benefits of
+   counterfactual visualization in supporting visual causal inference, we
+   propose a novel, simple, and efficient counterfactual guidance method to
+   enhance causal inference performance in guided exploratory analytics
+   based on insights and concerns gathered from expert interviews. Our
+   technique aims to capitalize on the benefits of counterfactual
+   approaches while reducing their complexity for users. We integrated
+   counterfactual guidance into an exploratory visual analytics system, and
+   using a synthetically generated ground-truth causal dataset, conducted a
+   comparative user study and evaluated to what extent counterfactual
+   guidance can help lead users to more precise visual causal inferences.
+   The results suggest that counterfactual guidance improved visual causal
+   inference performance, and also led to different exploratory behaviors
+   compared to correlation-based guidance. Based on these findings, we
+   offer future directions and challenges for incorporating counterfactual
+   guidance to better support exploratory visual analytics.
+ZA 0
+TC 0
+Z8 0
+ZR 0
+ZB 0
+ZS 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800008
+PM 39255136
+ER
+
+PT J
+AU Cui, Yuan
+   Ge, Lily W.
+   Ding, Yiren
+   Harrison, Lane
+   Yang, Fumeng
+   Kay, Matthew
+TI Promises and Pitfalls: Using Large Language Models to Generate
+   Visualization Items
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 1094
+EP 1104
+DI 10.1109/TVCG.2024.3456309
+DT Article
+PD JAN 2025
+PY 2025
+AB Visualization items-factual questions about visualizations that ask
+   viewers to accomplish visualization tasks-are regularly used in the
+   field of information visualization as educational and evaluative
+   materials. For example, researchers of visualization literacy require
+   large, diverse banks of items to conduct studies where the same skill is
+   measured repeatedly on the same participants. Yet, generating a large
+   number of high-quality, diverse items requires significant time and
+   expertise. To address the critical need for a large number of diverse
+   visualization items in education and research, this paper investigates
+   the potential for large language models (LLMS) to automate the
+   generation of multiple-choice visualization items. Through an iterative
+   design process, we develop the VILA (Visualization Items Generated by
+   Large LAnguage Models) pipeline, for efficiently generating
+   visualization items that measure people's ability to accomplish
+   visualization tasks. We use the VILA pipeline to generate 1,404
+   candidate items across 12 chart types and 13 visualization tasks. In
+   collaboration with 11 visualization experts, we develop an evaluation
+   rulebook which we then use to rate the quality of all candidate items.
+   The result is the VILA bank of similar to 1, 100 items. From this
+   evaluation, we also identify and classify current limitations of the
+   VILA pipeline, and discuss the role of human oversight in ensuring
+   quality. In addition, we demonstrate an application of our work by
+   creating a visualization literacy test, VILA-VLAT, which measures
+   people's ability to complete a diverse set of tasks on various types of
+   visualizations; comparing it to the existing VLAT, VILA-VLAT shows
+   moderate to high convergent validity (R = 0.70). Lastly, we discuss the
+   application areas of the VILA pipeline and the VILA bank and provide
+   practical recommendations for their use. All supplemental materials are
+   available at https://osf.io/ysrhq/.
+ZR 0
+ZA 0
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800012
+PM 39255101
+ER
+
+PT J
+AU Yan, Youfu
+   Hou, Yu
+   Xiao, Yongkang
+   Zhang, Rui
+   Wang, Qianwen
+TI KNowNEt:Guided Health Information Seeking from LLMs via Knowledge Graph
+   Integration
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 547
+EP 557
+DI 10.1109/TVCG.2024.3456364
+DT Article
+PD JAN 2025
+PY 2025
+AB The increasing reliance on Large Language Models (LLMs) for health
+   information seeking can pose severe risks due to the potential for
+   misinformation and the complexity of these topics. This paper introduces
+   KnowNet a visualization system that integrates LLMs with Knowledge
+   Graphs (KG) to provide enhanced accuracy and structured exploration.
+   Specifically, for enhanced accuracy, KnowNet extracts triples (e.g.,
+   entities and their relations) from LLM outputs and maps them into the
+   validated information and supported evidence in external KGs. For
+   structured exploration, KnowNet provides next-step recommendations based
+   on the neighborhood of the currently explored entities in KGs, aiming to
+   guide a comprehensive understanding without overlooking critical
+   aspects. To enable reasoning with both the structured data in KGs and
+   the unstructured outputs from LLMs, KnowNet conceptualizes the
+   understanding of a subject as the gradual construction of graph
+   visualization. A progressive graph visualization is introduced to
+   monitor past inquiries, and bridge the current query with the
+   exploration history and next-step recommendations. We demonstrate the
+   effectiveness of our system via use cases and expert interviews.
+ZA 0
+ZB 0
+ZS 0
+Z8 0
+TC 1
+ZR 0
+Z9 1
+DA 2024-12-11
+UT WOS:001370107500005
+PM 39255106
+ER
+
+EF

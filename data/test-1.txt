@@ -1,0 +1,257 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Manz, Trevor
+   Lekschas, Fritz
+   Greene, Evan
+   Finak, Greg
+   Gehlenborg, Nils
+TI A General Framework for Comparing Embedding Visualizations Across
+   Class-Label Hierarchies
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 283
+EP 293
+DI 10.1109/TVCG.2024.3456370
+DT Article
+PD JAN 2025
+PY 2025
+AB Projecting high-dimensional vectors into two dimensions for
+   visualization, known as embedding visualization, facilitates perceptual
+   reasoning and interpretation. Comparing multiple embedding
+   visualizations drives decision-making in many domains, but traditional
+   comparison methods are limited by a reliance on direct point
+   correspondences. This requirement precludes comparisons without point
+   correspondences, such as two different datasets of annotated images, and
+   fails to capture meaningful higher-level relationships among point
+   groups. To address these shortcomings, we propose a general framework
+   for comparing embedding visualizations based on shared class labels
+   rather than individual points. Our approach partitions points into
+   regions corresponding to three key class concepts-confusion,
+   neighborhood, and relative size-to characterize intra- and inter-class
+   relationships. Informed by a preliminary user study, we implemented our
+   framework using perceptual neighborhood graphs to define these regions
+   and introduced metrics to quantify each concept. We demonstrate the
+   generality of our framework with usage scenarios from machine learning
+   and single-cell biology, highlighting our metrics' ability to draw
+   insightful comparisons across label hierarchies. To assess the
+   effectiveness of our approach, we conducted an evaluation study with
+   five machine learning researchers and six single-cell biologists using
+   an interactive and scalable prototype built with Python, JavaScript, and
+   Rust. Our metrics enable more structured comparisons through visual
+   guidance and increased participants' confidence in their findings.
+ZS 0
+ZA 0
+TC 0
+ZR 0
+ZB 0
+Z8 0
+Z9 0
+DA 2024-12-11
+UT WOS:001370107500003
+PM 39255153
+ER
+
+PT J
+AU Tong, Wai
+   Shigyo, Kento
+   Yuan, Lin-Ping
+   Fan, Mingming
+   Pong, Ting-Chuen
+   Qu, Huamin
+   Xia, Meng
+TI VisTellAR: Embedding Data Visualization to Short-Form Videos Using
+   Mobile Augmented Reality
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1862
+EP 1874
+DI 10.1109/TVCG.2024.3372104
+DT Article
+PD MAR 2025
+PY 2025
+AB With the rise of short-form video platforms and the increasing
+   availability of data, we see the potential for people to share
+   short-form videos embedded with data in situ (e.g., daily steps when
+   running) to increase the credibility and expressiveness of their
+   stories. However, creating and sharing such videos in situ is
+   challenging since it involves multiple steps and skills (e.g., data
+   visualization creation and video editing), especially for amateurs. By
+   conducting a formative study (N=10) using three design probes, we
+   collected the motivations and design requirements. We then built
+   VisTellAR, a mobile AR authoring tool, to help amateur video creators
+   embed data visualizations in short-form videos in situ. A two-day user
+   study shows that participants (N=12) successfully created various videos
+   with data visualizations in situ and they confirmed the ease of use and
+   learning. AR pre-stage authoring was useful to assist people in setting
+   up data visualizations in reality with more designs in camera movements
+   and interaction with gestures and physical objects to storytelling.
+Z8 0
+ZB 0
+ZA 0
+TC 0
+ZR 0
+ZS 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200014
+PM 38427541
+ER
+
+PT J
+AU Dyken, Landon
+   Usher, Will
+   Kumar, Sidharth
+TI Interactive Isosurface Visualization in Memory Constrained Environments
+   Using Deep Learning and Speculative Raycasting
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 2
+BP 1582
+EP 1597
+DI 10.1109/TVCG.2024.3420225
+DT Article
+PD FEB 2025
+PY 2025
+AB New web technologies have enabled the deployment of powerful GPU-based
+   computational pipelines that run entirely in the web browser, opening a
+   new frontier for accessible scientific visualization applications.
+   However, these new capabilities do not address the memory constraints of
+   lightweight end-user devices encountered when attempting to visualize
+   the massive data sets produced by today's simulations and data
+   acquisition systems. We propose a novel implicit isosurface rendering
+   algorithm for interactive visualization of massive volumes within a
+   small memory footprint. We achieve this by progressively traversing a
+   wavefront of rays through the volume and decompressing blocks of the
+   data on-demand to perform implicit ray-isosurface intersections,
+   displaying intermediate results each pass. We improve the quality of
+   these intermediate results using a pretrained deep neural network that
+   reconstructs the output of early passes, allowing for interactivity with
+   better approximates of the final image. To accelerate rendering and
+   increase GPU utilization, we introduce speculative ray-block
+   intersection into our algorithm, where additional blocks are traversed
+   and intersected speculatively along rays to exploit additional
+   parallelism in the workload. Our algorithm is able to trade-off image
+   quality to greatly decrease rendering time for interactive rendering
+   even on lightweight devices. Our entire pipeline is run in parallel on
+   the GPU to leverage the parallel computing power that is available even
+   on lightweight end-user devices. We compare our algorithm to the state
+   of the art in low-overhead isosurface extraction and demonstrate that it
+   achieves 1.7x-5.7x reductions in memory overhead and up to 8.4x
+   reductions in data decompressed.
+ZB 0
+ZA 0
+Z8 0
+ZR 0
+ZS 0
+TC 0
+Z9 0
+DA 2025-01-19
+UT WOS:001392823200016
+PM 38941206
+ER
+
+PT J
+AU Tang, Kaiyuan
+   Wang, Chaoli
+TI StyleRF-VolVis: Style Transfer of Neural Radiance Fields for Expressive
+   Volume Visualization
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 1
+BP 613
+EP 623
+DI 10.1109/TVCG.2024.3456342
+DT Article
+PD JAN 2025
+PY 2025
+AB In volume visualization, visualization synthesis has attracted much
+   attention due to its ability to generate novel visualizations without
+   following the conventional rendering pipeline. However, existing
+   solutions based on generative adversarial networks often require many
+   training images and take significant training time. Still, issues such
+   as low quality, consistency, and flexibility persist. This paper
+   introduces StyleRF-VolVis, an innovative style transfer framework for
+   expressive volume visualization (VolVis) via neural radiance field
+   (NeRF). The expressiveness of StyleRF-VolVis is upheld by its ability to
+   accurately separate the underlying scene geometry (i.e., content) and
+   color appearance (i.e., style), conveniently modify color, opacity, and
+   lighting of the original rendering while maintaining visual content
+   consistency across the views, and effectively transfer arbitrary styles
+   from reference images to the reconstructed 3D scene. To achieve these,
+   we design a base NeRF model for scene geometry extraction, a palette
+   color network to classify regions of the radiance field for
+   photorealistic editing, and an unrestricted color network to lift the
+   color palette constraint via knowledge distillation for
+   non-photorealistic editing. We demonstrate the superior quality,
+   consistency, and flexibility of StyleRF-VolVis by experimenting with
+   various volume rendering scenes and reference images and comparing
+   StyleRF-VolVis against other image-based (AdaIN), video-based (ReReVST),
+   and NeRF-based (ARF and SNeRF) style rendering solutions.
+ZB 0
+Z8 0
+ZA 0
+ZR 0
+ZS 0
+TC 0
+Z9 0
+DA 2024-12-07
+UT WOS:001367808800001
+PM 39255154
+ER
+
+PT J
+AU Pavanatto, Leonardo
+   Lu, Feiyu
+   North, Chris
+   Bowman, Doug A.
+TI Multiple Monitors or Single Canvas? Evaluating Window Management and
+   Layout Strategies on Virtual Displays
+SO IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS
+VL 31
+IS 3
+BP 1713
+EP 1730
+DI 10.1109/TVCG.2024.3368930
+DT Article
+PD MAR 2025
+PY 2025
+AB Virtual displays enabled through head-worn augmented reality have unique
+   characteristics that can yield extensive amounts of screen space.
+   Existing research has shown that increasing the space on a computer
+   screen can enhance usability. Since virtual displays offer the unique
+   ability to present content without rigid physical space constraints,
+   they provide various new design possibilities. Therefore, we must
+   understand the trade-offs of layout choices when structuring that space.
+   We propose a single Canvas approach that eliminates boundaries from
+   traditional multi-monitor approaches and instead places windows in one
+   large, unified space. Our user study compared this approach against a
+   multi-monitor setup, and we considered both purely virtual systems and
+   hybrid systems that included a physical monitor. We looked into
+   usability factors such as performance, accuracy, and overall window
+   management. Results show that Canvas displays can cause users to compact
+   window layouts more than multiple monitors with snapping behavior, even
+   though such optimizations may not lead to longer window management
+   times. We did not find conclusive evidence of either setup providing a
+   better user experience. Multi-Monitor displays offer quick window
+   management with snapping and a structured layout through subdivisions.
+   However, Canvas displays allow for more control in placement and size,
+   lowering the amount of space used and, thus, head rotation.
+   Multi-Monitor benefits were more prominent in the hybrid configuration,
+   while the Canvas display was more beneficial in the purely virtual
+   configuration.
+ZB 0
+ZR 0
+TC 0
+ZA 0
+Z8 0
+ZS 0
+Z9 0
+DA 2025-02-09
+UT WOS:001413499200004
+PM 38386585
+ER
+
+EF
